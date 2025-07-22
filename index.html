@@ -1,1642 +1,862 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="KreativDev">
-    <!-- Title -->
-    <title>FOTRUCK</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
-    <!-- Google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;family=Lora:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="vendors/bootstrap.min.css">
-    <!-- Fontawesome Icon CSS -->
-    <link rel="stylesheet" href="fontawesome/all.min.css">
-    <!-- Icomoon Icon CSS -->
-    <link rel="stylesheet" href="icomoon/style.css">
-     <!-- Magnific Popup CSS -->
-    <link rel="stylesheet" href="vendors/magnific-popup.min.css">
-    <!-- Nice Select CSS -->
-    <link rel="stylesheet" href="vendors/nice-select.css">
-    <!-- Swiper Slider -->
-    <link rel="stylesheet" href="vendors/swiper-bundle.min.css">
-    <!-- AOS Animation CSS -->
-    <link rel="stylesheet" href="vendors/aos.min.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="vendors/animate.min.css">
-    <!-- Main Style CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Laralink">
+  <!-- Page Title -->
+  <title>Bhushan - Personal Portfolio</title>
+  <!-- Favicon Icon -->
+  <link rel="icon" href="favicon.svg" />
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="bootstrap.min.css" />
+  <link rel="stylesheet" href="fontawesome.css" />
+  <link rel="stylesheet" href="slick.css" />
+  <link rel="stylesheet" href="lightgallery.min.css" />
+  <link rel="stylesheet" href="animate.css" />
+  <link rel="stylesheet" href="style.css" /> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lg-fb-comment-box.css" integrity="sha512-1plwW86cS99GKHkh1pwsGwvUr0B990vjnDEwW2i+PfjKqoCjeEU+w2ZFiBRf8/1weqwFEGTL7xWFHJfqd4Qjug==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lg-fb-comment-box.min.css" integrity="sha512-vYu0Nd+ml6fhXHO671nhVS/c/puVD65iw4sJNw3j2zrH/q0i7pOIz9eoTZC3bxyRzYQfidejBbLcjJJMksYYpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lg-transitions.css" integrity="sha512-cOqal9CgcUu6YvxFVvQ1HBeaF0n0OHMECEPRnAhfEhPpvFD0+4VfLWtOgf5KFguoyKrdpvgDeLoDw9t2b4/Xag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lg-transitions.min.css" integrity="sha512-TLkzsbRon8DBy6TwaafTGapb+90/t0ZsGes1jMyHKaImbAUSTaedyS8HbDQOZt3H+j1s4BFKUlWXcPBEJNtPgw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.css" integrity="sha512-rxZfdHe16Pqj5dGOau/bxM9Ap7ARB++30nuEJhs/8OMZkjohGlim4JW04qmQ1Ed5COSN1XmcdtfW6Jx+lD0DDA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css" integrity="sha512-UMUaaaRK/i2ihAzNyraiLZzT8feWBDY+lLnBnhA3+MEfQn4jaNJMGBad6nyklImf7d0Id6n/Jb0ynr7RCpyNPQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="theme-dark theme-color-1">
-    <!-- Preloader start -->
-    <div id="preLoader">
-        <div class="loader">
-            <img src="images/loader-1.gif" alt="Preloader">
+<body id="home">
+  <!-- Start Header Section -->
+  <header class="st-site-header st-style1 st-sticky-header">
+    <div class="st-main-header">
+      <div class="container">
+        <div class="st-main-header-in">
+          <div class="st-main-header-left">
+            <a class='st-site-branding' href='index.html'><img src="logoBN.png" alt="logoBN"></a>
+          </div>
+          <div class="st-main-header-right">
+            <div class="st-nav">
+              <ul class="st-nav-list st-onepage-nav">
+                <li><a href="#home" class="st-smooth-move">Home</a></li>
+                <li><a href="#about" class="st-smooth-move">About</a></li>
+                <li><a href="#resume" class="st-smooth-move">Resume</a></li>
+                <li><a href="#portfolio" class="st-smooth-move">Portfolio</a></li>
+                <!-- <li><a href="#blog" class="st-smooth-move">Blog</a></li> -->
+                <li><a href="#contact" class="st-smooth-move">Contact</a></li>
+              </ul>
+              <div class="sp-phone">
+                <svg viewBox="0 0 513.64 513.64">
+                  <g>
+                    <g>
+                      <path d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z" />
+                    </g>
+                  </g>
+                </svg>
+                <div class="sp-phone-no">+91 7350730622</div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- Preloader end -->
+  </header>
+  <!-- End Header Section -->
 
-    <!-- Header-area start -->
-    <header class="header-area header-1" data-aos="fade-down">
-        <!-- Start mobile menu -->
-        <div class="mobile-menu">
-            <div class="container">
-                <div class="mobile-menu-wrapper"></div>
-            </div>
+  <!-- Start Hero Seciton -->
+  <div class="st-height-b80 st-height-lg-b80"></div>
+  <section class="st-hero-wrap st-parallax">
+    <div class="st-hero st-style1 st-ripple-version">
+      <div class="container">
+        <div class="st-hero-text">
+          <h3>Hello, I’m</h3>
+          <h1>Bhushan <br>Nizare
+          </h1>
+          <h2>Web Developer and Designer</h2>
+          <div class="st-hero-btn">
+            <a href="#contact" class="st-btn st-style1 st-color1 st-smooth-move">Hire me</a>
+          </div>
         </div>
-        <!-- End mobile menu -->
-
-        <div class="main-responsive-nav">
-            <div class="container">
-                <!-- Mobile Logo -->
-                <div class="logo">
-                    <a href="index.html" target="_self" title="Treats">
-                        <img class="lazyload" src="images/Fotruck-Logo12.png" data-src="images/Fotruck-Logo12.png" alt="Fotruck logo">
-                    </a>
-                </div>
-                <!-- Menu toggle button -->
-                <button class="menu-toggler" type="button">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-        </div>
-
-        <div class="main-navbar">
-            <div class="header-top py-2">
-                <div class="container">
-                    <div class="header-top-items mobile-item d-flex flex-wrap justify-content-between gap-15 align-items-center">
-                        <a href="tel:99911446666" class="icon-start" target="_self" title="Call Us">
-                            <span class="color-primary">
-                                Call Us:
-                            </span>
-                            +999 11 44 6666
-                        </a>
-                        <div class="social-link icon-only">
-                            <a class="rounded-pill" href="https://www.instagram.com/" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a>
-                            <a class="rounded-pill" href="https://www.dribbble.com/" target="_blank" title="dribbble"><i class="fab fa-dribbble"></i></a>
-                            <a class="rounded-pill" href="https://www.twitter.com/" target="_blank" title="twitter"><i class="fab fa-twitter"></i></a>
-                            <a class="rounded-pill" href="https://www.youtube.com/" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="header-bottom">
-                <div class="container">
-                    <nav class="navbar navbar-expand-lg">
-                        <!-- Logo -->
-                        <a class="navbar-brand" href="index.html" target="_self" title="Treats">
-                            <img class="lazyload" src="images/Fotruck-Logo12.png" data-src="images/Fotruck-Logo12.png" alt="FOTRUCK logo" width="50%">
-                        </a>
-                        <!-- Navigation items -->
-                        <div class="collapse navbar-collapse">
-                            <ul id="mainMenu" class="navbar-nav mobile-item mx-auto">
-                                <li class="nav-item">
-                                    <a href="index.html" class="nav-link">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="menu.html">Menu</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="more-option mobile-item">
-                            <div class="item" hidden>
-                                <div class="language">
-                                    <select class="niceselect">
-                                        <option value="1">English</option>
-                                        <option value="2">Chinese</option>
-                                        <option value="3">French</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="item" hidden>
-                                <a href="login.html" class="btn-icon" target="_self" aria-label="User" title="User">
-                                    <i class="fal fa-user-circle"></i>
-                                </a>
-                            </div>
-                            <div class="item" hidden>
-                                <a href="cart.html" class="btn-icon pe-2" target="_self" aria-label="Cart" title="Cart">
-                                    <i class="fal fa-shopping-bag"></i>
-                                    <span class="badge rounded-pill bg-primary">3</span>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="reservation.html" class="btn btn-md btn-primary rounded-pill" title="Book a Table" target="_self">Reservation</a>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- Header-area end -->
-
-    <!-- Home-area start-->
-    <section class="hero-banner hero-banner-1 parallax bg-white">
-        <div class="overlay opacity-75"></div>
-        <div class="container-fluid">
-            <div class="row align-items-center gx-xl-5">
-                <div class="col-lg-6">
-                    <div class="fluid-left">
-                        <div class="banner-content mb-40">
-                            <h1 class="title mb-30" data-aos="fade-up" data-aos-delay="100">SERVING DELICIOUSNESS ON WHEELS</h1>
-                            <p class="text" data-aos="fade-up" data-aos-delay="100">We put our heart and soul into everything that we do – from order to pick up, you will feel the love
-                            </p>
-                            <div class="d-flex align-items-center gap-25 flex-wrap mt-40" data-aos="fade-up" data-aos-delay="200">
-                                <a href="menu.html" class="btn btn-lg btn-primary rounded-pill" title="Discover Item" target="_self">Discover Item</a>
-                                <div class="author d-flex align-items-center gap-15">
-                                    <div class="author-img">
-                                        <div class="lazy-container rounded-pill ratio ratio-1-1">
-                                            <img class="lazyload" src="images/avatar-5.jpg" data-src="images/avatar-5.jpg" alt="Person Image">
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <h6 class="name mb-0 font-sm">
-                                            <a href="contact.html" target="_self" title="Link">Hames Rodrigo</a>
-                                        </h6>
-                                        <span class="designation font-xsm">Founder & Ceo</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6" data-aos="fade-up">
-                    <div class="banner-image mb-40 parallax-img" data-speed="0.1" data-revert="true">
-                        <img class="lazyload blur-up" src="images/hero-banner-1.png" data-src="images/hero-banner-1.png" alt="Banner Image">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="bg-img" data-bg-image="images/food-trunckbg.png"></div>
-    </section>
-    <!-- Home-area end -->
-
-    <!-- About-area start -->
-    <section class="about-area about-1 pt-100 pb-60 bg-white">
-        <div class="container">
-            <div class="row align-items-center gx-xl-5">
-                <div class="col-lg-6" data-aos="fade-up">
-                    <div class="image mb-40">
-                        <img class="lazyload blur-up" src="images/about-1.png" data-src="images/about-1.png" alt="Image">
-
-                        <div class="absolute-text bg-primary">
-                            <div class="center-text">
-                                <span class="h3 color-dark">8+</span>
-                                <span class="h4 mb-0 color-dark">Years Of Experience</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6" data-aos="fade-up">
-                    <div class="content-title pb-10 ps-xl-2">
-                        <h2 class="title mb-20">
-                            We are the Best Food Truck Since 2015
-                        </h2>
-                        <div class="content-text">
-                            <p>Our food, as much as our style, is bold and intentional. The focus is on quality. Everything is hand-made right down to the mayonnaise. We put our heart and soul into everything that we do – from order to pick up, you will feel the love.
-                            </p>
-                        </div>
-                        <div class="info-list mt-30">
-                            <div class="row gx-xl-5">
-                                <div class="col-md-6 item mb-30">
-                                    <div class="card">
-                                        <div class="card-icon rounded-pill">
-                                            <i class="ico-premium-quality"></i>
-                                        </div>
-                                        <div class="card-content">
-                                            <h6 class="card-title mb-2">Premium Quality</h6>
-                                            <p class="card-text">We provide premium
-                                                & quality food items</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 item mb-30">
-                                    <div class="card">
-                                        <div class="card-icon rounded-pill">
-                                            <i class="ico-call-order"></i>
-                                        </div>
-                                        <div class="card-content">
-                                            <h6 class="card-title mb-2">Online Delivery</h6>
-                                            <p class="card-text">
-                                                We provide fast online
-                                                delivery for all items
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 item mb-30">
-                                    <div class="card">
-                                        <div class="card-icon rounded-pill">
-                                            <i class="ico-nature-product"></i>
-                                        </div>
-                                        <div class="card-content">
-                                            <h6 class="card-title mb-2">100% Pure Food</h6>
-                                            <p class="card-text">We provide 100& Pure
-                                                & handmade foods</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 item mb-30">
-                                    <div class="card">
-                                        <div class="card-icon rounded-pill">
-                                            <i class="ico-support"></i>
-                                        </div>
-                                        <div class="card-content">
-                                            <h6 class="card-title mb-2">24/7 Hours Open</h6>
-                                            <p class="card-text">Our shop always 24/7
-                                                hours open for you</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About-area end -->
-
-    <!-- Category-area start -->
-    <section class="category-area category-1 pb-100 bg-img" data-bg-image="images/category-bg-1.png">
-        <div class="overlay opacity-50"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title title-center mb-50" data-aos="fade-up">
-                        <h2 class="title mb-0">Our Service Excellence</h2>
-                    </div>
-                </div>
-                <div class="col-12" data-aos="fade-up">
-                    <div class="swiper category-slider" id="category-slider-1" data-slides-per-view="4" data-swiper-loop="true">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="card text-center p-40 rounded-circle">
-                                    <div class="card-image mb-10 mx-auto">
-                                        <a href="menu.html" target="_self" title="Link" class="lazy-container ratio ratio-1-1 bg-none">
-                                            <img class="lazyload" src="images/Various-Menu-1 1.png" data-src="images/Various-Menu-1 1.png" alt="Image">
-                                        </a>
-                                    </div>
-                                    <h6 class="card-title lc-1 mb-0"><a href="menu.html" target="_self" title="Various Menu">Various Menu</a></h6>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card text-center p-40 rounded-circle">
-                                    <div class="card-image mb-10 mx-auto">
-                                        <a href="menu.html" target="_self" title="Link" class="lazy-container ratio ratio-1-1 bg-none">
-                                            <img class="lazyload" src="images/Fast-Service 1.png" data-src="images/Fast-Service 1.png" alt="Image">
-                                        </a>
-                                    </div>
-                                    <h6 class="card-title lc-1 mb-0"><a href="menu.html" target="_self" title="Fast Service">Fast Service</a></h6>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card text-center p-40 rounded-circle">
-                                    <div class="card-image mb-10 mx-auto">
-                                        <a href="menu.html" target="_self" title="Link" class="lazy-container ratio ratio-1-1 bg-none">
-                                            <img class="lazyload" src="images/Good-Taste 1.png" data-src="images/Good-Taste 1.png" alt="Image">
-                                        </a>
-                                    </div>
-                                    <h6 class="card-title lc-1 mb-0"><a href="menu.html" target="_self" title="Good Taste">Good Taste</a></h6>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card text-center p-40 rounded-circle">
-                                    <div class="card-image mb-10 mx-auto">
-                                        <a href="menu.html" target="_self" title="Link" class="lazy-container ratio ratio-1-1 bg-none">
-                                            <img class="lazyload" src="images/More-Discount 1.png" data-src="images/More-Discount 1.png" alt="Image">
-                                        </a>
-                                    </div>
-                                    <h6 class="card-title lc-1 mb-0"><a href="menu.html" target="_self" title="More Discount">More Discount</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination position-static mt-40" id="category-slider-1-pagination"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Category-area end -->
-
-     <!-- About-area start -->
-     <section class="about-area about-1 pt-100 pb-60 bg-white">
-        <div class="container">
-            <div class="row align-items-center gx-xl-5">
-                <div class="col-lg-6" data-aos="fade-up">
-                    <div class="content-title pb-10 ps-xl-2">
-                        <h2 class="title mb-20">
-                            Private Catering, Promotions and Branding
-                        </h2>
-                        <div class="content-text">
-                            <p>Food truck catering is perfect for both small and large events, as it can easily be scaled to meet the needs of your guest list. Whether you’re hosting an intimate gathering or a large-scale festival, food trucks can efficiently serve your guests while keeping lines moving and ensuring everyone is well-fed</p>
-                        </div>
-                        <div class="info-list mt-30">
-                            <div class="row gx-xl-5">
-                                <div class="col-md-6 item mb-30">
-                                    <div class="card">
-                                        <div class="card-icon rounded-pill">
-                                            <i class="ico-premium-quality"></i>
-                                        </div>
-                                        <div class="card-content">
-                                            <h6 class="card-title mb-2">Office Catering Service</h6>
-                                            <p class="card-text">We have the ability to cook onsite with our food truck, or provide good service your office with a full interior service </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 item mb-30">
-                                    <div class="card">
-                                        <div class="card-icon rounded-pill">
-                                            <i class="ico-call-order"></i>
-                                        </div>
-                                        <div class="card-content">
-                                            <h6 class="card-title mb-2">Special Occasions & Party</h6>
-                                            <p class="card-text">Birthday Parties, Graduations, Corporate Events, Engagement Celebrations, Bar, Weddings, After Parties and More !!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 item mb-30">
-                                    <div class="card">
-                                        <div class="card-icon rounded-pill">
-                                            <i class="ico-nature-product"></i>
-                                        </div>
-                                        <div class="card-content">
-                                            <h6 class="card-title mb-2">Promotion & Branding</h6>
-                                            <p class="card-text">We can help promote your business !! The more people see our food truck, the more they remember your brand</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 item mb-30" hidden>
-                                    <div class="card">
-                                        <div class="card-icon rounded-pill">
-                                            <i class="ico-support"></i>
-                                        </div>
-                                        <div class="card-content">
-                                            <h6 class="card-title mb-2">24/7 Hours Open</h6>
-                                            <p class="card-text">Our shop always 24/7
-                                                hours open for you</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6" data-aos="fade-up">
-                    <div class="image mb-40">
-                        <img class="lazyload blur-up" src="images/fun-party.jpg" data-src="images/fun-party.jpg" alt="Image">
-
-                        <!-- <div class="absolute-text bg-primary">
-                            <div class="center-text">
-                                <span class="h3 color-dark">8+</span>
-                                <span class="h4 mb-0 color-dark">Years Of Experience</span>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About-area end -->
-
-     <!-- Category-area start -->
-     <section class="category-area category-1 pb-100 bg-img" data-bg-image="images/category-bg-1.png">
-        <div class="overlay opacity-50"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title title-center mb-50" data-aos="fade-up">
-                        <h2 class="title mb-0">Explore Our Most Popular Fotruck Items</h2>
-                    </div>
-                </div>
-                <div class="col-12" data-aos="fade-up">
-                    <div class="swiper category-slider" id="category-slider-1" data-slides-per-view="4" data-swiper-loop="true">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="card text-center p-40 rounded-circle">
-                                    <div class="card-image mb-10 mx-auto">
-                                        <a href="menu.html" target="_self" title="Link" class="lazy-container ratio ratio-1-1 bg-none">
-                                            <img class="lazyload" src="images/prod2.png" data-src="images/prod2.png" alt="Sandwich">
-                                        </a>
-                                    </div>
-                                    <h6 class="card-title lc-1 mb-0"><a href="menu.html" target="_self" title="sandwich">Sandwich</a></h6>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card text-center p-40 rounded-circle">
-                                    <div class="card-image mb-10 mx-auto">
-                                        <a href="menu.html" target="_self" title="Link" class="lazy-container ratio ratio-1-1 bg-none">
-                                            <img class="lazyload" src="images/prod1.png" data-src="images/prod1.png" alt="Burger">
-                                        </a>
-                                    </div>
-                                    <h6 class="card-title lc-1 mb-0"><a href="menu.html" target="_self" title="Burger">Burger</a></h6>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card text-center p-40 rounded-circle">
-                                    <div class="card-image mb-10 mx-auto">
-                                        <a href="menu.html" target="_self" title="Link" class="lazy-container ratio ratio-1-1 bg-none">
-                                            <img class="lazyload" src="images/prod3.png" data-src="images/prod3.png" alt="Pizza">
-                                        </a>
-                                    </div>
-                                    <h6 class="card-title lc-1 mb-0"><a href="menu.html" target="_self" title="Good Taste">Pizza</a></h6>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card text-center p-40 rounded-circle">
-                                    <div class="card-image mb-10 mx-auto">
-                                        <a href="menu.html" target="_self" title="Link" class="lazy-container ratio ratio-1-1 bg-none">
-                                            <img class="lazyload" src="images/prod5.png" data-src="images/prod5.png" alt="Coffee">
-                                        </a>
-                                    </div>
-                                    <h6 class="card-title lc-1 mb-0"><a href="menu.html" target="_self" title="More Discount">Coffee</a></h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination position-static mt-40" id="category-slider-1-pagination"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Category-area end -->
-
-    <!-- Product-area start -->
-    <section class="product-area product-1 pt-100 pb-75 bg-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title title-center mb-20" data-aos="fade-up">
-                        <h2 class="title mb-30">Find Out Your Favorite Foods</h2>
-                        <div class="tabs-navigation tabs-navigation-2 mb-30">
-                            <ul class="nav nav-tabs border-bottom" data-hover="fancyHover">
-                                <li class="nav-item active">
-                                    <button class="nav-link hover-effect active btn-lg" data-bs-toggle="tab" data-bs-target="#tab1" type="button">All</button>
-                                </li>
-                                <li class="nav-item">
-                                    <button class="nav-link hover-effect btn-lg" data-bs-toggle="tab" data-bs-target="#tab2" type="button">Sandwich</button>
-                                </li>
-                                <li class="nav-item">
-                                    <button class="nav-link hover-effect btn-lg" data-bs-toggle="tab" data-bs-target="#tab3" type="button">Burger</button>
-                                </li>
-                                <li class="nav-item">
-                                    <button class="nav-link hover-effect btn-lg" data-bs-toggle="tab" data-bs-target="#tab4" type="button">Pizza</button>
-                                </li>
-                                <li class="nav-item">
-                                    <button class="nav-link hover-effect btn-lg" data-bs-toggle="tab" data-bs-target="#tab5" type="button">Coffee</button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="tab-content" data-aos="fade-up">
-                        <div class="tab-pane slide show active" id="tab1">
-                            <div class="row">
-                                <div class="col-sm-6 col-lg-4 col-xl-3">
-                                  <div class="menuBox">
-                                    <div class="top">
-                                      <img src="images/icon-1.png" alt="icon">
-                                      <span>Sandwich</span>
-                                    </div>
-                                    <div class="inner">
-                                      <div class="media">
-                                        <a class="pull-left" href="images/prod-small1.png" data-rel="prettyPhoto[menu1]">
-                                          <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small1.png); width: 54px; height: 54px;">
-                                            <img class="media-object" src="images/prod-small1.png" alt=" ">
-                                          </div>
-                                        </a>
-                                        <div class="media-body">
-                                          <span class="title">Veg Club Sandwich</span>
-                                          <p>World popular club sandwiches get a healthy vegetarian make over.</p>
-                                          <span class="price">
-                                            <div class="product-price">
-                                                <span class="h6 new-price color-primary" style="color: red !important;">Rs.50</span>
-                                                <span class="prev-price font-sm">Rs.70</span>
-                                            </div>
-                                           </span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-sm-6 col-lg-4 col-xl-3">
-                                    <div class="menuBox">
-                                      <div class="top">
-                                        <img src="images/icon-3.png" alt="icon">
-                                        <span>Burger</span>
-                                      </div>
-                                      <div class="inner">
-                                        <div class="media">
-                                          <a class="pull-left" href="images/prod-small2.png" data-rel="prettyPhoto[menu1]">
-                                            <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small2.png); width: 54px; height: 54px;">
-                                              <img class="media-object" src="images/prod-small2.png" alt=" ">
-                                            </div>
-                                          </a>
-                                          <div class="media-body">
-                                            <span class="title">Veg Burger</span>
-                                            <p>World popular club Burger get a healthy vegetarian make over.</p>
-                                            <span class="price">
-                                              <div class="product-price">
-                                                  <span class="h6 new-price color-primary" style="color: red !important;">Rs.70</span>
-                                                  <span class="prev-price font-sm">Rs.120</span>
-                                              </div>
-                                             </span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-sm-6 col-lg-4 col-xl-3">
-                                    <div class="menuBox">
-                                      <div class="top">
-                                        <img src="images/icon-4.png" alt="icon">
-                                        <span>Pizza</span>
-                                      </div>
-                                      <div class="inner">
-                                        <div class="media">
-                                          <a class="pull-left" href="images/prod-small3.png" data-rel="prettyPhoto[menu1]">
-                                            <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small3.png); width: 54px; height: 54px;">
-                                              <img class="media-object" src="images/prod-small3.png" alt=" ">
-                                            </div>
-                                          </a>
-                                          <div class="media-body">
-                                            <span class="title">Veg Pizza</span>
-                                            <p>World popular club Pizza get a healthy vegetarian make over.</p>
-                                            <span class="price">
-                                              <div class="product-price">
-                                                  <span class="h6 new-price color-primary" style="color: red !important;">Rs.180</span>
-                                                  <span class="prev-price font-sm">Rs.250</span>
-                                              </div>
-                                             </span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-sm-6 col-lg-4 col-xl-3">
-                                    <div class="menuBox">
-                                      <div class="top">
-                                        <img src="images/icon-5.png" alt="icon">
-                                        <span>Coffee</span>
-                                      </div>
-                                      <div class="inner">
-                                        <div class="media">
-                                          <a class="pull-left" href="images/prod-small4.png" data-rel="prettyPhoto[menu1]">
-                                            <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small4.png); width: 54px; height: 54px;">
-                                              <img class="media-object" src="images/prod-small4.png" alt=" ">
-                                            </div>
-                                          </a>
-                                          <div class="media-body">
-                                            <span class="title">Cold Coffee</span>
-                                            <p>Frosty and satisfying cold coffee is a fantastic beverage treat to enjoy on a warm day.</p>
-                                            <span class="price">
-                                              <div class="product-price">
-                                                  <span class="h6 new-price color-primary" style="color: red !important;">Rs.100</span>
-                                                  <span class="prev-price font-sm">Rs.150</span>
-                                              </div>
-                                             </span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-sm-6 col-lg-4 col-xl-3">
-                                    <div class="menuBox">
-                                      <div class="top">
-                                        <img src="images/icon-5.png" alt="icon">
-                                        <span>Coffee</span>
-                                      </div>
-                                      <div class="inner">
-                                        <div class="media">
-                                          <a class="pull-left" href="images/prod-small4.png" data-rel="prettyPhoto[menu1]">
-                                            <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small4.png); width: 54px; height: 54px;">
-                                              <img class="media-object" src="images/prod-small4.png" alt=" ">
-                                            </div>
-                                          </a>
-                                          <div class="media-body">
-                                            <span class="title">Cold Coffee</span>
-                                            <p>Frosty and satisfying cold coffee is a fantastic beverage treat to enjoy on a warm day.</p>
-                                            <span class="price">
-                                              <div class="product-price">
-                                                  <span class="h6 new-price color-primary" style="color: red !important;">Rs.100</span>
-                                                  <span class="prev-price font-sm">Rs.150</span>
-                                              </div>
-                                             </span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-sm-6 col-lg-4 col-xl-3">
-                                    <div class="menuBox">
-                                      <div class="top">
-                                        <img src="images/icon-4.png" alt="icon">
-                                        <span>Pizza</span>
-                                      </div>
-                                      <div class="inner">
-                                        <div class="media">
-                                          <a class="pull-left" href="images/prod-small3.png" data-rel="prettyPhoto[menu1]">
-                                            <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small3.png); width: 54px; height: 54px;">
-                                              <img class="media-object" src="images/prod-small3.png" alt=" ">
-                                            </div>
-                                          </a>
-                                          <div class="media-body">
-                                            <span class="title">Veg Pizza</span>
-                                            <p>World popular club Pizza get a healthy vegetarian make over.</p>
-                                            <span class="price">
-                                              <div class="product-price">
-                                                  <span class="h6 new-price color-primary" style="color: red !important;">Rs.180</span>
-                                                  <span class="prev-price font-sm">Rs.250</span>
-                                              </div>
-                                             </span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-sm-6 col-lg-4 col-xl-3">
-                                      <div class="menuBox">
-                                        <div class="top">
-                                          <img src="images/icon-3.png" alt="icon">
-                                          <span>Burger</span>
-                                        </div>
-                                        <div class="inner">
-                                          <div class="media">
-                                            <a class="pull-left" href="images/prod-small2.png" data-rel="prettyPhoto[menu1]">
-                                              <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small2.png); width: 54px; height: 54px;">
-                                                <img class="media-object" src="images/prod-small2.png" alt=" ">
-                                              </div>
-                                            </a>
-                                            <div class="media-body">
-                                              <span class="title">Veg Burger</span>
-                                              <p>World popular club Burger get a healthy vegetarian make over.</p>
-                                              <span class="price">
-                                                <div class="product-price">
-                                                    <span class="h6 new-price color-primary" style="color: red !important;">Rs.70</span>
-                                                    <span class="prev-price font-sm">Rs.120</span>
-                                                </div>
-                                               </span>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                                        <div class="menuBox">
-                                          <div class="top">
-                                            <img src="images/icon-1.png" alt="icon">
-                                            <span>Sandwich</span>
-                                          </div>
-                                          <div class="inner">
-                                            <div class="media">
-                                              <a class="pull-left" href="images/prod-small1.png" data-rel="prettyPhoto[menu1]">
-                                                <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small1.png); width: 54px; height: 54px;">
-                                                  <img class="media-object" src="images/prod-small1.png" alt=" ">
-                                                </div>
-                                              </a>
-                                              <div class="media-body">
-                                                <span class="title">Veg Club Sandwich</span>
-                                                <p>World popular club sandwiches get a healthy vegetarian make over.</p>
-                                                <span class="price">
-                                                  <div class="product-price">
-                                                      <span class="h6 new-price color-primary" style="color: red !important;">Rs.50</span>
-                                                      <span class="prev-price font-sm">Rs.70</span>
-                                                  </div>
-                                                 </span>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>  
-                                    </div>
-                                </div>
-                        <div class="tab-pane slide" id="tab2">
-                            <div class="row">
-                                <div class="col-sm-6 col-lg-4 col-xl-3">
-                                   <div class="menuBox type4">
-                                          <div class="top">
-                                            <img src="images/icon-1.png" alt=" ">
-                                            <span>Sandwich</span>
-                                          </div>
-                                          <div class="inner">
-                                            <div class="media">
-                                                <a class="pull-left" href="images/prod-small1.png" data-rel="prettyPhoto[menu1]">
-                                                  <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small1.png); width: 54px; height: 54px;">
-                                                    <img class="media-object" src="images/prod-small1.png" alt=" ">
-                                                  </div>
-                                                </a>
-                                                <div class="media-body">
-                                                  <span class="title">Veg Club Sandwich</span>
-                                                  <p>World popular club sandwiches get a healthy vegetarian make over.</p>
-                                                  <span class="price">
-                                                    <div class="product-price">
-                                                        <span class="h6 new-price color-primary" style="color: red !important;">Rs.50</span>
-                                                        <span class="prev-price font-sm">Rs.70</span>
-                                                    </div>
-                                                   </span>
-                                                </div>
-                                              </div>
-                                            <!-- / item -->
-                                          </div>
-                                        </div>
-                                        <!-- / menuBox -->
-                                     </div>  
-                                     <div class="col-sm-6 col-lg-4 col-xl-3">
-                                        <div class="menuBox type4">
-                                               <div class="top">
-                                                 <img src="images/icon-1.png" alt=" ">
-                                                 <span>Sandwich</span>
-                                               </div>
-                                               <div class="inner">
-                                                 <div class="media">
-                                                     <a class="pull-left" href="images/prod-small1.png" data-rel="prettyPhoto[menu1]">
-                                                       <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small1.png); width: 54px; height: 54px;">
-                                                         <img class="media-object" src="images/prod-small1.png" alt=" ">
-                                                       </div>
-                                                     </a>
-                                                     <div class="media-body">
-                                                       <span class="title">Veg Club Sandwich</span>
-                                                       <p>World popular club sandwiches get a healthy vegetarian make over.</p>
-                                                       <span class="price">
-                                                         <div class="product-price">
-                                                             <span class="h6 new-price color-primary" style="color: red !important;">Rs.50</span>
-                                                             <span class="prev-price font-sm">Rs.70</span>
-                                                         </div>
-                                                        </span>
-                                                     </div>
-                                                   </div>
-                                                 <!-- / item -->
-                                               </div>
-                                             </div>
-                                             <!-- / menuBox -->
-                                          </div> 
-                                          <div class="col-sm-6 col-lg-4 col-xl-3">
-                                            <div class="menuBox type4">
-                                                   <div class="top">
-                                                     <img src="images/icon-1.png" alt=" ">
-                                                     <span>Sandwich</span>
-                                                   </div>
-                                                   <div class="inner">
-                                                     <div class="media">
-                                                         <a class="pull-left" href="images/prod-small1.png" data-rel="prettyPhoto[menu1]">
-                                                           <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small1.png); width: 54px; height: 54px;">
-                                                             <img class="media-object" src="images/prod-small1.png" alt=" ">
-                                                           </div>
-                                                         </a>
-                                                         <div class="media-body">
-                                                           <span class="title">Veg Club Sandwich</span>
-                                                           <p>World popular club sandwiches get a healthy vegetarian make over.</p>
-                                                           <span class="price">
-                                                             <div class="product-price">
-                                                                 <span class="h6 new-price color-primary" style="color: red !important;">Rs.50</span>
-                                                                 <span class="prev-price font-sm">Rs.70</span>
-                                                             </div>
-                                                            </span>
-                                                         </div>
-                                                       </div>
-                                                     <!-- / item -->
-                                                   </div>
-                                                 </div>
-                                                 <!-- / menuBox -->
-                                              </div> 
-                                              <div class="col-sm-6 col-lg-4 col-xl-3">
-                                                <div class="menuBox type4">
-                                                       <div class="top">
-                                                         <img src="images/icon-1.png" alt=" ">
-                                                         <span>Sandwich</span>
-                                                       </div>
-                                                       <div class="inner">
-                                                         <div class="media">
-                                                             <a class="pull-left" href="images/prod-small1.png" data-rel="prettyPhoto[menu1]">
-                                                               <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small1.png); width: 54px; height: 54px;">
-                                                                 <img class="media-object" src="images/prod-small1.png" alt=" ">
-                                                               </div>
-                                                             </a>
-                                                             <div class="media-body">
-                                                               <span class="title">Veg Club Sandwich</span>
-                                                               <p>World popular club sandwiches get a healthy vegetarian make over.</p>
-                                                               <span class="price">
-                                                                 <div class="product-price">
-                                                                     <span class="h6 new-price color-primary" style="color: red !important;">Rs.50</span>
-                                                                     <span class="prev-price font-sm">Rs.70</span>
-                                                                 </div>
-                                                                </span>
-                                                             </div>
-                                                           </div>
-                                                         <!-- / item -->
-                                                       </div>
-                                                     </div>
-                                                     <!-- / menuBox -->
-                                                  </div> 
-                                        </div>
-                                </div>
-                      <div class="tab-pane slide" id="tab3">
-                            <div class="row">
-                                <div class="col-sm-6 col-lg-4 col-xl-3">
-                                   <div class="menuBox type2">
-                                          <div class="top">
-                                            <img src="images/icon-3.png" alt=" ">
-                                            <span>Burger</span>
-                                          </div>
-                                          <div class="inner">
-                                            <div class="media">
-                                                <a class="pull-left" href="images/prod-small2.png" data-rel="prettyPhoto[menu1]">
-                                                  <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small2.png); width: 54px; height: 54px;">
-                                                    <img class="media-object" src="images/prod-small2.png" alt=" ">
-                                                  </div>
-                                                </a>
-                                                <div class="media-body">
-                                                  <span class="title">Veg Burger</span>
-                                                  <p>World popular club Burger get a healthy vegetarian make over.</p>
-                                                  <span class="price">
-                                                    <div class="product-price">
-                                                        <span class="h6 new-price color-primary" style="color: red !important;">Rs.70</span>
-                                                        <span class="prev-price font-sm">Rs.120</span>
-                                                    </div>
-                                                   </span>
-                                                </div>
-                                              </div>
-                                            <!-- / item -->
-                                          </div>
-                                        </div>
-                                        <!-- / menuBox -->
-                                     </div>  
-                                     <div class="col-sm-6 col-lg-4 col-xl-3">
-                                        <div class="menuBox type2">
-                                               <div class="top">
-                                                 <img src="images/icon-3.png" alt=" ">
-                                                 <span>Burger</span>
-                                               </div>
-                                               <div class="inner">
-                                                <div class="media">
-                                                    <a class="pull-left" href="images/prod-small2.png" data-rel="prettyPhoto[menu1]">
-                                                      <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small2.png); width: 54px; height: 54px;">
-                                                        <img class="media-object" src="images/prod-small2.png" alt=" ">
-                                                      </div>
-                                                    </a>
-                                                    <div class="media-body">
-                                                      <span class="title">Veg Burger</span>
-                                                      <p>World popular club Burger get a healthy vegetarian make over.</p>
-                                                      <span class="price">
-                                                        <div class="product-price">
-                                                            <span class="h6 new-price color-primary" style="color: red !important;">Rs.70</span>
-                                                            <span class="prev-price font-sm">Rs.120</span>
-                                                        </div>
-                                                       </span>
-                                                    </div>
-                                                  </div>
-                                                 <!-- / item -->
-                                               </div>
-                                             </div>
-                                             <!-- / menuBox -->
-                                          </div> 
-                                          <div class="col-sm-6 col-lg-4 col-xl-3">
-                                            <div class="menuBox type2">
-                                                   <div class="top">
-                                                     <img src="images/icon-3.png" alt=" ">
-                                                     <span>Burger</span>
-                                                   </div>
-                                                   <div class="inner">
-                                                    <div class="media">
-                                                        <a class="pull-left" href="images/prod-small2.png" data-rel="prettyPhoto[menu1]">
-                                                          <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small2.png); width: 54px; height: 54px;">
-                                                            <img class="media-object" src="images/prod-small2.png" alt=" ">
-                                                          </div>
-                                                        </a>
-                                                        <div class="media-body">
-                                                          <span class="title">Veg Burger</span>
-                                                          <p>World popular club Burger get a healthy vegetarian make over.</p>
-                                                          <span class="price">
-                                                            <div class="product-price">
-                                                                <span class="h6 new-price color-primary" style="color: red !important;">Rs.70</span>
-                                                                <span class="prev-price font-sm">Rs.120</span>
-                                                            </div>
-                                                           </span>
-                                                        </div>
-                                                      </div>
-                                                     <!-- / item -->
-                                                   </div>
-                                                 </div>
-                                                 <!-- / menuBox -->
-                                              </div> 
-                                              <div class="col-sm-6 col-lg-4 col-xl-3">
-                                                <div class="menuBox type2">
-                                                       <div class="top">
-                                                         <img src="images/icon-3.png" alt=" ">
-                                                         <span>Burger</span>
-                                                       </div>
-                                                       <div class="inner">
-                                                        <div class="media">
-                                                            <a class="pull-left" href="images/prod-small2.png" data-rel="prettyPhoto[menu1]">
-                                                              <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small2.png); width: 54px; height: 54px;">
-                                                                <img class="media-object" src="images/prod-small2.png" alt=" ">
-                                                              </div>
-                                                            </a>
-                                                            <div class="media-body">
-                                                              <span class="title">Veg Burger</span>
-                                                              <p>World popular club Burger get a healthy vegetarian make over.</p>
-                                                              <span class="price">
-                                                                <div class="product-price">
-                                                                    <span class="h6 new-price color-primary" style="color: red !important;">Rs.70</span>
-                                                                    <span class="prev-price font-sm">Rs.120</span>
-                                                                </div>
-                                                               </span>
-                                                            </div>
-                                                          </div>
-                                                         <!-- / item -->
-                                                       </div>
-                                                     </div>
-                                                     <!-- / menuBox -->
-                                                  </div> 
-                            </div>
-                        </div>
-                        <div class="tab-pane slide" id="tab4">
-                            <div class="row">
-                                <div class="col-sm-6 col-lg-4 col-xl-3">
-                                   <div class="menuBox type3">
-                                          <div class="top">
-                                            <img src="images/icon-4.png" alt=" ">
-                                            <span>Pizza</span>
-                                          </div>
-                                          <div class="inner">
-                                            <div class="media">
-                                                <a class="pull-left" href="images/prod-small3.png" data-rel="prettyPhoto[menu1]">
-                                                  <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small3.png); width: 54px; height: 54px;">
-                                                    <img class="media-object" src="images/prod-small3.png" alt=" ">
-                                                  </div>
-                                                </a>
-                                                <div class="media-body">
-                                                  <span class="title">Veg Pizza</span>
-                                                  <p>World popular club Pizza get a healthy vegetarian make over.</p>
-                                                  <span class="price">
-                                                    <div class="product-price">
-                                                        <span class="h6 new-price color-primary" style="color: red !important;">Rs.180</span>
-                                                        <span class="prev-price font-sm">Rs.250</span>
-                                                    </div>
-                                                   </span>
-                                                </div>
-                                              </div>
-                                            <!-- / item -->
-                                          </div>
-                                        </div>
-                                        <!-- / menuBox -->
-                                     </div>  
-                                     <div class="col-sm-6 col-lg-4 col-xl-3">
-                                        <div class="menuBox type3">
-                                               <div class="top">
-                                                 <img src="images/icon-4.png" alt=" ">
-                                                 <span>Pizza</span>
-                                               </div>
-                                               <div class="inner">
-                                                <div class="media">
-                                                    <a class="pull-left" href="images/prod-small3.png" data-rel="prettyPhoto[menu1]">
-                                                      <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small3.png); width: 54px; height: 54px;">
-                                                        <img class="media-object" src="images/prod-small3.png" alt=" ">
-                                                      </div>
-                                                    </a>
-                                                    <div class="media-body">
-                                                      <span class="title">Veg Pizza</span>
-                                                      <p>World popular club Pizza get a healthy vegetarian make over.</p>
-                                                      <span class="price">
-                                                        <div class="product-price">
-                                                            <span class="h6 new-price color-primary" style="color: red !important;">Rs.180</span>
-                                                            <span class="prev-price font-sm">Rs.250</span>
-                                                        </div>
-                                                       </span>
-                                                    </div>
-                                                  </div>
-                                                 <!-- / item -->
-                                               </div>
-                                             </div>
-                                             <!-- / menuBox -->
-                                          </div> 
-                                          <div class="col-sm-6 col-lg-4 col-xl-3">
-                                            <div class="menuBox type3">
-                                                   <div class="top">
-                                                     <img src="images/icon-4.png" alt=" ">
-                                                     <span>Pizza</span>
-                                                   </div>
-                                                   <div class="inner">
-                                                    <div class="media">
-                                                        <a class="pull-left" href="images/prod-small3.png" data-rel="prettyPhoto[menu1]">
-                                                          <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small3.png); width: 54px; height: 54px;">
-                                                            <img class="media-object" src="images/prod-small3.png" alt=" ">
-                                                          </div>
-                                                        </a>
-                                                        <div class="media-body">
-                                                          <span class="title">Veg Pizza</span>
-                                                          <p>World popular club Pizza get a healthy vegetarian make over.</p>
-                                                          <span class="price">
-                                                            <div class="product-price">
-                                                                <span class="h6 new-price color-primary" style="color: red !important;">Rs.180</span>
-                                                                <span class="prev-price font-sm">Rs.250</span>
-                                                            </div>
-                                                           </span>
-                                                        </div>
-                                                      </div>
-                                                     <!-- / item -->
-                                                   </div>
-                                                 </div>
-                                                 <!-- / menuBox -->
-                                              </div> 
-                                              <div class="col-sm-6 col-lg-4 col-xl-3">
-                                                <div class="menuBox type3">
-                                                       <div class="top">
-                                                         <img src="images/icon-4.png" alt=" ">
-                                                         <span>Pizza</span>
-                                                       </div>
-                                                       <div class="inner">
-                                                        <div class="media">
-                                                            <a class="pull-left" href="images/prod-small3.png" data-rel="prettyPhoto[menu1]">
-                                                              <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small3.png); width: 54px; height: 54px;">
-                                                                <img class="media-object" src="images/prod-small3.png" alt=" ">
-                                                              </div>
-                                                            </a>
-                                                            <div class="media-body">
-                                                              <span class="title">Veg Pizza</span>
-                                                              <p>World popular club Pizza get a healthy vegetarian make over.</p>
-                                                              <span class="price">
-                                                                <div class="product-price">
-                                                                    <span class="h6 new-price color-primary" style="color: red !important;">Rs.180</span>
-                                                                    <span class="prev-price font-sm">Rs.250</span>
-                                                                </div>
-                                                               </span>
-                                                            </div>
-                                                          </div>
-                                                         <!-- / item -->
-                                                       </div>
-                                                     </div>
-                                                     <!-- / menuBox -->
-                                                  </div> 
-                            </div>
-                        </div>
-                        <div class="tab-pane slide" id="tab5">
-                            <div class="row">
-                                <div class="col-sm-6 col-lg-4 col-xl-3">
-                                   <div class="menuBox type5">
-                                          <div class="top">
-                                            <img src="images/icon-5.png" alt=" ">
-                                            <span>Coffee</span>
-                                          </div>
-                                          <div class="inner">
-                                            <div class="media">
-                                                <a class="pull-left" href="images/prod-small4.png" data-rel="prettyPhoto[menu1]">
-                                                  <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small4.png); width: 54px; height: 54px;">
-                                                    <img class="media-object" src="images/prod-small4.png" alt=" ">
-                                                  </div>
-                                                </a>
-                                                <div class="media-body">
-                                                  <span class="title">Cold Coffee</span>
-                                                  <p>Frosty and satisfying cold coffee is a fantastic beverage treat to enjoy on a warm day.</p>
-                                                  <span class="price">
-                                                    <div class="product-price">
-                                                        <span class="h6 new-price color-primary" style="color: red !important;">Rs.100</span>
-                                                        <span class="prev-price font-sm">Rs.150</span>
-                                                    </div>
-                                                   </span>
-                                                </div>
-                                              </div>
-                                            <!-- / item -->
-                                          </div>
-                                        </div>
-                                        <!-- / menuBox -->
-                                     </div>  
-                                     <div class="col-sm-6 col-lg-4 col-xl-3">
-                                        <div class="menuBox type5">
-                                               <div class="top">
-                                                 <img src="images/icon-5.png" alt=" ">
-                                                 <span>Coffee</span>
-                                               </div>
-                                               <div class="inner">
-                                                <div class="media">
-                                                    <a class="pull-left" href="images/prod-small4.png" data-rel="prettyPhoto[menu1]">
-                                                      <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small4.png); width: 54px; height: 54px;">
-                                                        <img class="media-object" src="images/prod-small4.png" alt=" ">
-                                                      </div>
-                                                    </a>
-                                                    <div class="media-body">
-                                                      <span class="title">Cold Coffee</span>
-                                                      <p>Frosty and satisfying cold coffee is a fantastic beverage treat to enjoy on a warm day.</p>
-                                                      <span class="price">
-                                                        <div class="product-price">
-                                                            <span class="h6 new-price color-primary" style="color: red !important;">Rs.100</span>
-                                                            <span class="prev-price font-sm">Rs.150</span>
-                                                        </div>
-                                                       </span>
-                                                    </div>
-                                                  </div>
-                                                 <!-- / item -->
-                                               </div>
-                                             </div>
-                                             <!-- / menuBox -->
-                                          </div> 
-                                          <div class="col-sm-6 col-lg-4 col-xl-3">
-                                            <div class="menuBox type5">
-                                                   <div class="top">
-                                                     <img src="images/icon-5.png" alt=" ">
-                                                     <span>Coffee</span>
-                                                   </div>
-                                                   <div class="inner">
-                                                    <div class="media">
-                                                        <a class="pull-left" href="images/prod-small4.png" data-rel="prettyPhoto[menu1]">
-                                                          <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small4.png); width: 54px; height: 54px;">
-                                                            <img class="media-object" src="images/prod-small4.png" alt=" ">
-                                                          </div>
-                                                        </a>
-                                                        <div class="media-body">
-                                                          <span class="title">Cold Coffee</span>
-                                                          <p>Frosty and satisfying cold coffee is a fantastic beverage treat to enjoy on a warm day.</p>
-                                                          <span class="price">
-                                                            <div class="product-price">
-                                                                <span class="h6 new-price color-primary" style="color: red !important;">Rs.100</span>
-                                                                <span class="prev-price font-sm">Rs.150</span>
-                                                            </div>
-                                                           </span>
-                                                        </div>
-                                                      </div>
-                                                     <!-- / item -->
-                                                   </div>
-                                                 </div>
-                                                 <!-- / menuBox -->
-                                              </div> 
-                                              <div class="col-sm-6 col-lg-4 col-xl-3">
-                                                <div class="menuBox type5">
-                                                       <div class="top">
-                                                         <img src="images/icon-5.png" alt=" ">
-                                                         <span>Coffee</span>
-                                                       </div>
-                                                       <div class="inner">
-                                                        <div class="media">
-                                                            <a class="pull-left" href="images/prod-small4.png" data-rel="prettyPhoto[menu1]">
-                                                              <div class="roundedImg" data-size="54" style="background-image: url(images/prod-small4.png); width: 54px; height: 54px;">
-                                                                <img class="media-object" src="images/prod-small4.png" alt=" ">
-                                                              </div>
-                                                            </a>
-                                                            <div class="media-body">
-                                                              <span class="title">Cold Coffee</span>
-                                                              <p>Frosty and satisfying cold coffee is a fantastic beverage treat to enjoy on a warm day.</p>
-                                                              <span class="price">
-                                                                <div class="product-price">
-                                                                    <span class="h6 new-price color-primary" style="color: red !important;">Rs.100</span>
-                                                                    <span class="prev-price font-sm">Rs.150</span>
-                                                                </div>
-                                                             </span>
-                                                         </div>
-                                                     </div>
-                                                <!-- / item -->
-                                             </div>
-                                        </div>
-                                    <!-- / menuBox -->
-                               </div> 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cta-btn text-center mt-15 mb-25">
-                        <a href="menu.html" class="btn btn-lg btn-primary rounded-pill" title="More Items" target="_self">More Items</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Product-area end -->
-
-    <!-- Product-area start -->
-    <section class="product-area product-lg-1 pt-100 pb-70 bg-img" data-bg-image="images/product-bg-1.jpg">
-        <div class="overlay opacity-85"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title title-center mb-50" data-aos="fade-up">
-                        <h2 class="title">We Offer Low Prices on All Food</h2>
-                    </div>
-                </div>
-                <div class="col-12" data-aos="fade-up">
-                    <div class="row">
-                        <div class="col-md-6 col-xl-4">
-                            <div class="product text-center p-30 radius-md mb-30">
-                                <div class="inner">
-                                    <figure class="product-img mb-10 mx-auto">
-                                        <a href="menu.html" target="_self" title="Link" class="lazy-container ratio ratio-1-1 bg-none">
-                                            <img class="lazyload" src="images/prod1.png" data-src="images/prod1.png" alt="Image">
-                                        </a>
-                                    </figure>
-                                    <div class="product-details">
-                                        <h3 class="product-title lc-1 mb-10"><a href="menu.html" target="_self" title="Veg Whopper">Veg Whopper</a></h3>
-                                        <div class="product-price mb-15">
-                                            <span class="h4 new-price">Rs.179</span>
-                                            <span class="prev-price">Rs200</span>
-                                        </div>
-                                        <p class="product-text mb-25">Our signature Whopper with 7 layers between the buns. Extra crunchy veg patty, fresh onions, crispy lettuce, juicy tomatoes (seasonal), tangy gherkins, creamy and smoky sauces with new premium buns. Swaad Aisa, India Jaisa.</p>
-                                        <a href="reservation.html" class="btn btn-lg btn-outline rounded-pill" title="Place Your Order" target="_self">Place Your Order</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-4">
-                            <div class="product text-center p-30 radius-md mb-30">
-                                <figure class="product-img mb-10 mx-auto">
-                                    <a href="menu.html" target="_self" title="Link" class="lazy-container ratio ratio-1-1 bg-none">
-                                        <img class="lazyload" src="images/prod2.png" data-src="images/prod2.png" alt="Image">
-                                    </a>
-                                </figure>
-                                <div class="product-details">
-                                    <h3 class="product-title lc-1 mb-10"><a href="menu.html" target="_self" title="Bombay Grilled Sandwich">Bombay Grilled Sandwich</a></h3>
-                                    <div class="product-price mb-15">
-                                        <span class="h4 new-price">$14.00</span>
-                                        <span class="prev-price">$16.00</span>
-                                    </div>
-                                    <p class="product-text mb-25">This famous Indian Street Food is made with green chutney, butter, potatoes, tomatoes, cucumbers, onions, grated cheese, and chaat masala. On occasion, I've also seen the addition of beets and green bell peppers. </p>
-                                    <a href="reservation.html" class="btn btn-lg btn-outline rounded-pill" title="Place Your Order" target="_self">Place Your Order</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-4">
-                            <div class="product text-center p-30 radius-md mb-30">
-                                <figure class="product-img mb-10 mx-auto">
-                                    <a href="menu.html" target="_self" title="Link" class="lazy-container ratio ratio-1-1 bg-none">
-                                        <img class="lazyload" src="images/prod3.png" data-src="images/prod3.png" alt="Image">
-                                    </a>
-                                </figure>
-                                <div class="product-details">
-                                    <h3 class="product-title lc-1 mb-10"><a href="menu.html" target="_self" title="Margherita">Margherita</a></h3>
-                                    <div class="product-price mb-15">
-                                        <span class="h4 new-price">$12.00</span>
-                                        <span class="prev-price">$11.00</span>
-                                    </div>
-                                    <p class="product-text mb-25">Pizza topped with our herb-infused signature pan sauce and 100% mozzarella cheese. A classic treat for all cheese lovers out there! Swaad Aisa, India Jaisa. (PAN Per / Med-293 Kcal / 100g | TnC-293 Kcal / 100g) </p>
-                                    <a href="reservation.html" class="btn btn-lg btn-outline rounded-pill" title="Place Your Order" target="_self">Place Your Order</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Product-area end -->
-
-    <!-- Testimonial-area start -->
-    <section class="testimonial-area testimonial-1 pt-100 pb-60">
-        <div class="overlay opacity-85"></div>
-        <div class="container">
-            <div class="row align-items-center gx-xl-5">
-                <div class="col-lg-6">
-                    <div class="content-title mb-40" data-aos="fade-up">
-                        <h2 class="title mb-20">
-                            Wonderful Words from Our Satisfied Clients
-                        </h2>
-                        <div class="content-text mb-40">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic enim minus numquam necessitatibus soluta sed quidem excepturi omnis voluptatem, beatae, quisquam iusto nulla aperiam aliquid et laborum. Magnam accusamus voluptatum officia facere.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="swiper mb-40" id="testimonial-slider-1" data-aos="fade-up">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="slider-item radius-md">
-                                    <div class="client gap-20 flex-wrap">
-                                        <div class="client-info d-flex align-items-center">
-                                            <div class="client-img">
-                                                <div class="lazy-container rounded-circle ratio ratio-1-1">
-                                                    <img class="lazyload" src="images/avatar-5.jpg" data-src="images/avatar-5.jpg" alt="Person Image">
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="name mb-1">John Morris</h6>
-                                                <span class="designation font-sm">Food Reviewer</span>
-                                            </div>
-                                        </div>
-                                        <div class="ratings size-md flex-column align-items-start gap-2">
-                                            <div class="rate">
-                                                <div class="rating-icon"></div>
-                                            </div>
-                                            <div class="ratings-total">5 star of 20 review</div>
-                                        </div>
-                                    </div>
-                                    <div class="quote">
-                                        <span class="icon"><i class="fal fa-quote-right"></i></span>
-                                        <p class="text font-lg mb-0">
-                                            Lorem sit amet nulla massa. Nulla facilisi. Sed purus dui, luctus eget lectus quis, volutpat volutpat est. Aliquam porttitor vitae lacus ac imperdiet. Aliquam luctus lacinia felis, vel rutrum ex tempus at Donec malesuada mauris in leo.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="slider-item radius-md">
-                                    <div class="client gap-20 flex-wrap">
-                                        <div class="client-info d-flex align-items-center">
-                                            <div class="client-img">
-                                                <div class="lazy-container rounded-circle ratio ratio-1-1">
-                                                    <img class="lazyload" src="images/avatar-5.jpg" data-src="images/avatar-5.jpg" alt="Person Image">
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="name mb-1">Kelly Minar</h6>
-                                                <span class="designation font-sm">Cake Designer</span>
-                                            </div>
-                                        </div>
-                                        <div class="ratings size-md flex-column align-items-start gap-2">
-                                            <div class="rate">
-                                                <div class="rating-icon"></div>
-                                            </div>
-                                            <div class="ratings-total">5 star of 20 review</div>
-                                        </div>
-                                    </div>
-                                    <div class="quote">
-                                        <span class="icon"><i class="fal fa-quote-right"></i></span>
-                                        <p class="text font-lg mb-0">
-                                            Pellentesque sit amet nulla massa. Nulla facilisi. Sed purus dui, luctus eget lectus quis, volutpat volutpat est. Aliquam porttitor vitae lacus ac imperdiet. Aliquam luctus lacinia felis, vel rutrum ex tempus at Donec malesuada mauris in leo.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="slider-item radius-md">
-                                    <div class="client gap-20 flex-wrap">
-                                        <div class="client-info d-flex align-items-center">
-                                            <div class="client-img">
-                                                <div class="lazy-container rounded-circle ratio ratio-1-1">
-                                                    <img class="lazyload" src="images/avatar-5.jpg" data-src="images/avatar-5.jpg" alt="Person Image">
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="name mb-1">Maria May</h6>
-                                                <span class="designation font-sm">CEO, Foodcred</span>
-                                            </div>
-                                        </div>
-                                        <div class="ratings size-md flex-column align-items-start gap-2">
-                                            <div class="rate">
-                                                <div class="rating-icon"></div>
-                                            </div>
-                                            <div class="ratings-total">5 star of 20 review</div>
-                                        </div>
-                                    </div>
-                                    <div class="quote">
-                                        <span class="icon"><i class="fal fa-quote-right"></i></span>
-                                        <p class="text font-lg mb-0">
-                                            Donec sit amet nulla massa. Nulla facilisi. Sed purus dui, luctus eget lectus quis, volutpat volutpat est. Aliquam porttitor vitae lacus ac imperdiet. Aliquam luctus lacinia felis, vel rutrum ex tempus at Donec malesuada mauris in leo.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination position-static mt-30" id="testimonial-slider-1-pagination"></div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="image mb-40" data-aos="fade-left">
-                        <img class="lazyload blur-up" src="images/pro-18.png" data-src="images/pro-18.png" alt="Image">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Testimonial-area end -->
-    
-   
-    <!-- Gallery-area start -->
-    <div class="gallery-area" data-aos="fade-up">
-        <div class="container">
-            <div class="swiper gallery-slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <a href="https://www.instagram.com/" class="slider-item" title="Image" target="_blank">
-                            <div class="lazy-container ratio ratio-2-3">
-                                <img class="lazyload" src="images/pro-6.png" data-src="images/pro-6.png" alt="Image">
-                            </div>
-                            <div class="icon rounded-pill"><img class="lazyload blur-up" src="images/pro-6.png" data-src="images/pro-6.png" alt="Image"></div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://www.instagram.com/" class="slider-item" title="Image" target="_blank">
-                            <div class="lazy-container ratio ratio-2-3">
-                                <img class="lazyload" src="images/pro-12.png" data-src="images/pro-12.png" alt="Image">
-                            </div>
-                            <div class="icon rounded-pill"><img class="lazyload blur-up" src="images/pro-12.png" data-src="images/pro-12.png" alt="Image"></div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://www.instagram.com/" class="slider-item" title="Image" target="_blank">
-                            <div class="lazy-container ratio ratio-2-3">
-                                <img class="lazyload" src="images/prod1.png" data-src="images/prod1.png" alt="Image">
-                            </div>
-                            <div class="icon rounded-pill"><img class="lazyload blur-up" src="images/prod1.png" data-src="images/prod1.png" alt="Image"></div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://www.instagram.com/" class="slider-item" title="Image" target="_blank">
-                            <div class="lazy-container ratio ratio-2-3">
-                                <img class="lazyload" src="images/prod2.png" data-src="images/prod2.png" alt="Image">
-                            </div>
-                            <div class="icon rounded-pill"><img class="lazyload blur-up" src="images/prod2.png" data-src="images/prod2.png" alt="Image"></div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="https://www.instagram.com/" class="slider-item" title="Image" target="_blank">
-                            <div class="lazy-container ratio ratio-2-3">
-                                <img class="lazyload" src="images/prod4.png" data-src="images/prod4.png" alt="Image">
-                            </div>
-                            <div class="icon rounded-pill"><img class="lazyload blur-up" src="images/prod4.png" data-src="images/prod4.png" alt="Image"></div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-    <!-- Gallery-area end -->
+    <!-- Hero Image - Social Link Group -->
+    <div class="st-hero-img st-to-right">
+      <img class="wow fadeInRight img-fluid" src="Customisation-System-Service.png" alt="Hero">
+      <div class="st-social-group wow fadeInLeft" hidden>
+        <div class="st-social-link">
+          <a href="#" class="st-social-btn active">
+            <span class="st-social-icon"><i class="fab fa-dribbble"></i></span>
+            <span class="st-icon-name">Dribbble</span>
+          </a>
+          <a href="#" class="st-social-btn">
+            <span class="st-social-icon"><i class="fab fa-behance"></i></span>
+            <span class="st-icon-name">Behance</span>
+          </a>
+          <a href="#" class="st-social-btn">
+            <span class="st-social-icon"><i class="fab fa-twitter"></i></span>
+            <span class="st-icon-name">Twitter</span>
+          </a>
+          <a href="#" class="st-social-btn">
+            <span class="st-social-icon"><i class="fab fa-linkedin"></i></span>
+            <span class="st-icon-name">LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="particles-js"></div>
+  </section>
+  <!-- End Hero Seciton -->
 
-    <!-- Footer-area start -->
-<footer class="footer-area bg-img bg-cover" data-bg-image="images/footer-bg-5.jpg">
-    <div class="overlay opacity-95"></div>
+  <!-- Start About Seciton -->
+  <section id="about" class="st-about-wrap">
+    <div class="st-height-b100 st-height-lg-b80"></div>
     <div class="container">
-        <div class="footer-top pt-90 pb-60">
-            <div class="row justify-content-between">
-                <div class="col-xl-4 col-lg-5 col-md-7 col-sm-12">
-                    <div class="footer-widget" data-aos="fade-up">
-                        <div class="navbar-brand">
-                            <a href="index.html" target="_self" title="Link">
-                                <img class="lazyload" src="images/Fotruck-Logo12.png" data-src="images/Fotruck-Logo12.png" alt="Fotruck logo" style="width: 50%;">
-                            </a>
-                        </div>
-                        <p> We are the Best Food Truck Since 2015 Our food, as much as our style, is bold and intentional. The focus is on quality. Everything is hand-made right down to the mayonnaise. We put our heart and soul into everything that we do – from order to pick up, you will feel the love.</p>
-                        <div class="social-link">
-                            <a href="https://www.instagram.com/" target="_blank" title="Link"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.dribbble.com/" target="_blank" title="Link"><i class="fab fa-dribbble"></i></a>
-                            <a href="https://www.twitter.com/" target="_blank" title="Link"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.youtube.com/" target="_blank" title="Link"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-                    <div class="footer-widget" data-aos="fade-up">
-                        <h4>Useful Links</h4>
-                        <ul class="footer-links">
-                            <li>
-                                <a href="shop.html" target="_self" title="link">All Categories</a>
-                            </li>
-                            <li>
-                                <a href="menu.html" target="_self" title="link">Food Menu</a>
-                            </li>
-                            <li>
-                                <a href="contact.html" target="_self" title="link">Contact Us</a>
-                            </li>
-                            <li>
-                                <a href="#" target="_self" title="link">Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a href="about.html" target="_self" title="link">About Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                    <div class="footer-widget" data-aos="fade-up">
-                        <h4>Recent Post</h4>
-                        <article class="article-item">
-                            <div class="image">
-                                <a href="#" target="_self" title="Link" class="lazy-container ratio ratio-1-1 radius-sm">
-                                    <img class="lazyload" src="images/prod-small1.png" data-src="images/prod-small1.png" alt="Blog Image">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h6 class="lc-2 mb-10">
-                                    <a href="#" target="_self" title="Blog">
-                                        The Ultimate Food Challenge: Can You Handle These Epic Restaurant Dishes?
-                                    </a>
-                                </h6>
-                                <ul class="blog-list list-unstyled">
-                                    <li class="font-sm icon-start"><i class="far fa-user-alt"></i>Admin</li>
-                                    <li class="font-sm icon-start"><i class="fal fa-calendar-alt"></i>18-08-2023</li>
-                                </ul>
-                            </div>
-                        </article>
-                        <article class="article-item">
-                            <div class="image">
-                                <a href="#" target="_self" title="Link" class="lazy-container ratio ratio-1-1 radius-sm">
-                                    <img class="lazyload" src="images/prod-small4.png" data-src="images/prod-small4.png" alt="Blog Image">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h6 class="lc-2 mb-10">
-                                    <a href="#" target="_self" title="Blog">
-                                        Savor the Moment: 5 Unique Restaurants with Stunning Views You Must Visit!
-                                    </a>
-                                </h6>
-                                <ul class="blog-list list-unstyled">
-                                    <li class="font-sm icon-start"><i class="far fa-user-alt"></i>Admin</li>
-                                    <li class="font-sm icon-start"><i class="fal fa-calendar-alt"></i>18-08-2023</li>
-                                </ul>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                    <div class="footer-widget" data-aos="fade-up">
-                        <h4>Contact Us</h4>
-                        <ul class="info-list">
-                            <li>
-                                <i class="fal fa-map-marker-alt"></i>
-                                <span>05,Laxmi Putra Niwas,Prakhe Wasti Rd Hinjewadi,Pune 411057</span>
-                            </li>
-                            <li>
-                                <i class="fal fa-envelope"></i>
-                                <div class="link">
-                                    <a href="mailto:helpline@example.com" target="_self" title="Link">helpline@example.com</a>
-                                    <a href="mailto:getinfo@example.com" target="_self" title="Link">getinfo@example.com</a>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="fal fa-headset"></i>
-                                <div class="link">
-                                    <a href="tel:99911446666" target="_self" title="Link">+999 11 44 6666</a>
-                                    <a href="tel:9992233555" target="_self" title="Link">+999 22 33 5555</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="newsletter radius-md" hidden>
-            <div class="row align-items-center justify-content-between">
-                <div class="col-xl-5 col-md-6">
-                    <h4 class="mb-15">Subscribe Our Newsletter</h4>
-                </div>
-                <div class="col-xl-5 col-md-6">
-                    <div class="newsletter-form mb-15">
-                        <form id="newsletterForm">
-                            <div class="form-group">
-                                <input class="form-control shadow-md rounded-pill" placeholder="Enter email here..." type="text" name="EMAIL" required="" autocomplete="off">
-                                <button class="btn btn-lg btn-primary rounded-pill" type="submit">
-                                    <span class="d-inline d-sm-none">
-                                        <i class="fal fa-paper-plane"></i>
-                                    </span>
-                                    <span class="d-none d-sm-inline">Subscribe</span>
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copy-right-area ptb-30">
-            <div class="copy-right-content">
-                <span>
-                    Copyright <i class="fal fa-copyright"></i><span id="footerDate"></span> <a href="index.html" target="_self" title="Treats" class="color-primary">Fotruck</a>. All Rights Reserved
-                </span>
-            </div>
-        </div>
+      <div class="st-section-heading st-style1">
+        <h4 class="st-section-heading-title">ABOUT ME</h4>
+        <h2 class="st-section-heading-subtitle">ABOUT ME</h2>
+      </div>
+      <div class="st-height-b25 st-height-lg-b25"></div>
     </div>
-</footer>
-<!-- Footer-area end-->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 wow fadeInLeft">
+          <div class="st-about-img-wrap">
+            <div class="st-about-img st-dynamic-bg st-bg" data-src="mypic.png"></div>
+          </div>
+          <div class="st-height-b0 st-height-lg-b30"></div>
+        </div>
+        <div class="col-lg-6">
+          <div class="st-vertical-middle">
+            <div class="st-vertical-middle-in">
+              <div class="st-text-block st-style1">
+                <h2 class="st-text-block-title">Hi There! I'm Bhushan Nizare</h2>
+                <h4 class="st-text-block-subtitle">Web Developer and Designer</h4>
+                <div class="st-text-block-text">
+                  <p>I’m Bhushan Nizare. I specialize in front-end development with a passion for creating responsive and user-friendly websites. With 5 years of experience in the industry, I have honed my skills in HTML, CSS, and Bootstrap, bringing creative ideas to life on the digital canvas. Based in Pune, I collaborate with clients worldwide to produce top-notch web solutions.</p>
+                </div>
+                <ul class="st-text-block-details st-mp0">
+                  <li><span>Birthday</span> : <span>Augst 10, 1992</span></li>
+                  <li><span>Phone</span> : <span>+91 7350730622</span></li>
+                  <li><span>Email</span> : <span>bhushannizare739@gmail.com</span></li>
+                  <li><span>From</span> : <span>Parkhe Vasti Hinjewadi Pune Maharashtra</span></li>
+                  <li><span>Language</span> : <span>English,Marathi,Hindi</span></li>
+                  <li><span>Freelance</span> : <span>Available</span></li>
+                </ul>
+                <div class="st-text-block-btn">
+                  <a href="Bhushan's ResumeUpdated (2).pdf" class="st-btn st-style1 st-color1" target="_blank" download>Download CV</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About Seciton -->
 
-    <!-- Go to Top -->
-    <div class="go-top"><i class="fal fa-angle-up"></i></div>
-    <!-- Go to Top -->
+  <!-- Start Service Seciton -->
+  <section>
+    <div class="st-height-b100 st-height-lg-b80"></div>
+    <div class="container">
+      <div class="st-section-heading st-style1">
+        <h4 class="st-section-heading-title">SERVICES</h4>
+        <h2 class="st-section-heading-subtitle">SERVICES</h2>
+      </div>
+      <div class="st-height-b25 st-height-lg-b25"></div>
+    </div>
 
-    <!-- Jquery JS -->
-    <script src="vendors/jquery.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="vendors/bootstrap.min.js"></script>
-    <!-- Counter JS -->
-    <script src="vendors/jquery.counterup.min.js"></script>
-    <!-- Magnific Popup JS -->
-    <script src="vendors/jquery.magnific-popup.min.js"></script>
-    <!-- Nice Select JS -->
-    <script src="vendors/jquery.nice-select.min.js"></script>
-    <!-- Swiper Slider JS -->
-    <script src="vendors/swiper-bundle.min.js"></script>
-    <!-- Lazysizes -->
-    <script src="vendors/lazysizes.min.js"></script>
-    <!-- Mouse Hover JS -->
-    <script src="vendors/mouse-hover-move.js"></script>
-    <!-- Twinmax JS -->
-    <script src="vendors/tweenMax.min.js"></script>
-    <!-- AOS JS -->
-    <script src="vendors/aos.min.js"></script>
-    <!-- Main script JS -->
-    <script src="js/script.js"></script>
+    <!-- Iconbox Container -->
 
-    
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="st-iconbox st-style1">
+            <div class="st-iconbox-icon">
+              <svg viewBox="0 0 512 512">
+                <g>
+                  <path d="m336 144a8 8 0 0 0 -8 8v104a8 8 0 0 0 16 0v-104a8 8 0 0 0 -8-8z" />
+                  <path d="m336 272a8 8 0 0 0 -8 8v8a8 8 0 0 0 16 0v-8a8 8 0 0 0 -8-8z" />
+                  <path
+                    d="m496 24h-480a8 8 0 0 0 -8 8v352a8 8 0 0 0 8 8h288v64a32 32 0 0 0 64 0v-64h48a8.008 8.008 0 0 0 5.66-2.34l80-80a8.008 8.008 0 0 0 2.34-5.66v-272a8 8 0 0 0 -8-8zm-144 432a16 16 0 0 1 -32 0v-16h32zm0-32h-32v-8h32zm0-24h-32v-264h32zm0-280h-32v-6.11l.94-1.89h30.12l.94 1.89zm-23.06-24 7.06-14.11 7.06 14.11zm95.06 268.69v-52.69h52.69zm64-68.69h-72a8 8 0 0 0 -8 8v72h-40v-264a8.081 8.081 0 0 0 -.84-3.58l-24-48a8.009 8.009 0 0 0 -14.32 0l-24 48a8.081 8.081 0 0 0 -.84 3.58v264h-280v-336h464z" />
+                  <path d="m48 72h72a8 8 0 0 0 0-16h-72a8 8 0 0 0 0 16z" />
+                  <path d="m80 88a8 8 0 0 0 -8-8h-24a8 8 0 0 0 0 16h24a8 8 0 0 0 8-8z" />
+                  <path
+                    d="m288 88a104.118 104.118 0 0 0 -104 104 8 8 0 0 0 16 0 88.1 88.1 0 0 1 88-88 8 8 0 0 0 0-16z" />
+                  <path
+                    d="m240 184a8 8 0 0 0 -8 8 80.091 80.091 0 0 1 -80 80 8 8 0 0 0 0 16 96.108 96.108 0 0 0 96-96 8 8 0 0 0 -8-8z" />
+                  <path
+                    d="m456 192a8 8 0 0 0 16 0 80.091 80.091 0 0 0 -80-80 8 8 0 0 0 0 16 64.072 64.072 0 0 1 64 64z" />
+                  <path
+                    d="m168 216a48 48 0 1 0 -48 48 48.053 48.053 0 0 0 48-48zm-48 32a32 32 0 1 1 32-32 32.036 32.036 0 0 1 -32 32z" />
+                  <path
+                    d="m264 288a24 24 0 1 0 24 24 24.028 24.028 0 0 0 -24-24zm0 32a8 8 0 1 1 8-8 8.009 8.009 0 0 1 -8 8z" />
+                  <path
+                    d="m432 112a24 24 0 1 0 -24-24 24.028 24.028 0 0 0 24 24zm0-32a8 8 0 1 1 -8 8 8.009 8.009 0 0 1 8-8z" />
+                </g>
+              </svg>
+            </div>
+            <h2 class="st-iconbox-title">Website Design & Development</h2>
+            <div class="st-iconbox-text">Provide top-quality, innovative, elegant website design to match your needs.</div>
+          </div>
+          <div class="st-height-b30 st-height-lg-b30"></div>
+        </div><!-- .col -->
+        <div class="col-lg-4 col-md-6">
+          <div class="st-iconbox st-style1">
+            <div class="st-iconbox-icon">
+              <svg viewBox="0 0 512 512">
+                <g>
+                  <g>
+                    <path d="M360,104h-80c-4.418,0-8,3.582-8,8v80c0,4.418,3.582,8,8,8h80c4.418,0,8-3.582,8-8v-80C368,107.582,364.418,104,360,104z
+                  M288,184v-52.693L340.693,184H288z M352,172.68L299.32,120H352V172.68z" />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path d="M360,216h-80c-4.418,0-8,3.582-8,8v80c0,4.418,3.582,8,8,8h80c4.418,0,8-3.582,8-8v-80C368,219.582,364.418,216,360,216z
+                  M288,296v-52.685L340.685,296H288z M352,284.688L299.312,232H352V284.688z" />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <rect x="272" y="328" width="64" height="16" />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <rect x="352" y="328" width="16" height="16" />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <rect x="272" y="360" width="96" height="16" />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <rect x="272" y="392" width="96" height="16" />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <rect x="136" y="184" width="80" height="16" />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <rect x="136" y="248" width="80" height="16" />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <rect x="136" y="312" width="80" height="16" />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path d="M464,56c-4.418,0-8,3.582-8,8v32h-48V16c0-8.837-7.163-16-16-16H120c-8.837,0-16,7.163-16,16v80H56V64
+                 c0-4.418-3.582-8-8-8c-0.48,0-48,0.728-48,64v312c0,30.504,30.4,44.632,46.4,47.84c0.526,0.111,1.062,0.165,1.6,0.16h56v16
+                 c0,8.837,7.163,16,16,16h272c8.837,0,16-7.163,16-16v-16h56c0.538,0.005,1.074-0.049,1.6-0.16c16-3.208,46.4-17.336,46.4-47.84
+                 V120C512,56.728,464.48,56,464,56z M16,120c0-32.64,14.4-43.088,24-46.4v312.232c-8.773,2.722-16.927,7.139-24,13V120z M104,464
+                 H48.88C44.104,462.856,16,455.128,16,432c0-24.96,32.248-31.88,33.6-32.16c3.725-0.76,6.401-4.038,6.4-7.84V112h48V464z M120,88
+                 h92.12L120,145.543V88z M232,94.447V152h-92.136L232,94.447z M120,168h112v48H120V168z M120,232h112v48H120V232z M120,296h112v48
+                 H120V296z M120,360h94.186L120,424.724V360z M232,367.172V432h-94.337L232,367.172z M392,496H120v-48h272V496z M392,432H248V88
+                 h144V432z M392,72H120V16h272V72z M463.136,464H408V112h48v280c-0.001,3.802,2.675,7.08,6.4,7.84
+                 c0.368,0.072,33.6,7.008,33.6,32.16C496,455.256,468.072,462.84,463.136,464z M496,398.832c-7.073-5.861-15.227-10.278-24-13V73.6
+                 c9.496,3.32,24,13.776,24,46.4V398.832z" />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <rect x="200" y="40" width="64" height="16" />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <rect x="280" y="40" width="16" height="16" />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <rect x="312" y="40" width="16" height="16" />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <h2 class="st-iconbox-title">E-Commerce Website Development</h2>
+            <div class="st-iconbox-text">Develop a elegant, unique, lightweight and appropriate Ecommerce platform.</div>
+          </div>
+          <div class="st-height-b30 st-height-lg-b30"></div>
+        </div><!-- .col -->
+         <div class="col-lg-4 col-md-6">
+          <div class="st-iconbox st-style1">
+            <div class="st-iconbox-icon">
+              <svg viewBox="0 0 512 512">
+                <g id="XMLID_1568_">
+                  <g id="XMLID_652_">
+                    <path id="XMLID_676_"
+                      d="m482 278h-37.673v-54c0-14.602-10.489-26.795-24.327-29.455v-104.529c0-19.859-16.157-36.016-36.017-36.016h-128.983c-5.522 0-10 4.477-10 10s4.478 10 10 10h128.983c8.832 0 16.017 7.185 16.017 16.016v103.984h-129.667c-16.542 0-30 13.458-30 30v63.228h-220.333v-197.212c0-8.831 7.185-16.016 16.017-16.016h128.983c5.522 0 10-4.477 10-10s-4.478-10-10-10h-128.983c-19.86 0-36.017 16.157-36.017 36.016v229.268c0 19.859 16.157 36.017 36.017 36.017h123.33v36.063c0 19.688-9.953 37.694-26.624 48.168-3.774 2.371-5.523 6.953-4.29 11.235 1.233 4.283 5.152 7.232 9.609 7.232h343.958c16.542 0 30-13.458 30-30v-119.999c0-16.542-13.458-30-30-30zm-211.667-64h143.994c5.514 0 10 4.486 10 10v54h-14.327c-16.542 0-30 13.458-30 30v120c0 3.506.61 6.87 1.72 10h-111.387c-5.514 0-10-4.486-10-10v-204c0-5.514 4.486-10 10-10zm-250.333 105.284v-12.057h220.333v28.073h-70.986-133.33c-8.832.001-16.017-7.184-16.017-16.016zm159.347 72.08v-36.063h60.986v72.699c0 3.506.61 6.87 1.72 10h-78.402c10.071-13.169 15.696-29.427 15.696-46.636zm312.653 36.636c0 5.514-4.486 10-10 10h-72c-5.514 0-10-4.486-10-10v-120c0-5.514 4.486-10 10-10h72c5.514 0 10 4.486 10 10z" />
+                    <path id="XMLID_1626_"
+                      d="m58 114.614c-5.522 0-10 4.477-10 10v112c0 5.523 4.478 10 10 10h88c5.522 0 10-4.477 10-10v-112c0-5.523-4.478-10-10-10zm78 112h-68v-92h68z" />
+                    <path id="XMLID_1627_"
+                      d="m194 134.614h101c5.522 0 10-4.477 10-10s-4.478-10-10-10h-101c-5.522 0-10 4.477-10 10s4.478 10 10 10z" />
+                    <path id="XMLID_1628_"
+                      d="m194 230.61c2.63 0 5.21-1.06 7.069-2.92 1.86-1.87 2.931-4.44 2.931-7.08 0-2.63-1.07-5.21-2.931-7.07-1.859-1.86-4.439-2.93-7.069-2.93s-5.21 1.07-7.07 2.93-2.93 4.44-2.93 7.07 1.069 5.21 2.93 7.08c1.86 1.86 4.44 2.92 7.07 2.92z" />
+                    <path id="XMLID_1639_"
+                      d="m194 182.614h37.5c5.522 0 10-4.477 10-10s-4.478-10-10-10h-37.5c-5.522 0-10 4.477-10 10s4.478 10 10 10z" />
+                    <path id="XMLID_1674_"
+                      d="m446 398c-2.63 0-5.21 1.069-7.07 2.93s-2.93 4.44-2.93 7.07 1.069 5.21 2.93 7.069c1.86 1.86 4.44 2.931 7.07 2.931s5.21-1.07 7.069-2.931c1.861-1.859 2.931-4.439 2.931-7.069s-1.07-5.21-2.931-7.07c-1.859-1.861-4.439-2.93-7.069-2.93z" />
+                    <path id="XMLID_1677_"
+                      d="m342.33 418c2.63 0 5.21-1.07 7.069-2.931 1.86-1.859 2.931-4.439 2.931-7.069s-1.07-5.21-2.931-7.07c-1.859-1.86-4.439-2.93-7.069-2.93s-5.21 1.069-7.07 2.93-2.93 4.44-2.93 7.07 1.069 5.21 2.93 7.069c1.86 1.861 4.44 2.931 7.07 2.931z" />
+                    <path id="XMLID_1681_"
+                      d="m210 74c2.63 0 5.21-1.07 7.069-2.93 1.861-1.86 2.931-4.44 2.931-7.07s-1.07-5.21-2.931-7.07c-1.859-1.86-4.439-2.93-7.069-2.93s-5.21 1.07-7.07 2.93-2.93 4.44-2.93 7.07 1.069 5.21 2.93 7.07 4.44 2.93 7.07 2.93z" />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <h2 class="st-iconbox-title">Responsive Website Design Development</h2>
+            <div class="st-iconbox-text">We specialize in creating responsive websites that adapt seamlessly to various screen sizes and devices.</div>
+          </div>
+          <div class="st-height-b0 st-height-lg-b30"></div>
+        </div><!-- .col -->
+      </div>
+    </div>
+    <div class="st-height-b100 st-height-lg-b80"></div>
+  </section>
+  <!-- End Service Seciton -->
+
+  <!-- Start Skill Seciton -->
+  <section class="st-dark-bg">
+    <div class="st-height-b100 st-height-lg-b80"></div>
+    <div class="container">
+      <div class="st-section-heading st-style1">
+        <h4 class="st-section-heading-title">MY SKILLS</h4>
+        <h2 class="st-section-heading-subtitle">MY SKILLS</h2>
+      </div>
+      <div class="st-height-b25 st-height-lg-b25"></div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="st-skill-wrap">
+            <div class="st-skill-heading">
+              <h2 class="st-skill-title">All the skills that I have in that field
+                of work are mentioned.</h2>
+              <div class="st-skill-subtitle">My journey began in 5 Year when I discovered my passion for web design. Since then, I have been continuously learning and updating my skills to ensure my work remains at the cutting edge of technology and design trends.
+              </div>
+            </div><!-- .st-skill-heading -->
+            <div class="pt-3">
+              <h5 class="core">Core Skills</h5>
+              <div class="st-skill-subtitle"><span class="cores">HTML:</span> Semantic HTML practices to create structured pages.</div>
+              <div class="st-skill-subtitle pt-1"><span class="cores">CSS:</span> Advanced styling techniques including Flexbox and Grid for responsive layouts.</div>
+              <div class="st-skill-subtitle pt-1"><span class="cores">Bootstrap:</span> Utilizing Bootstrap frameworks to speed up development and ensure mobile-first design.</div>
+            </div><!-- .st-skill-heading -->
+            <div class="pt-3">
+              <h5 class="core">Additional Skills</h5>
+              <div class="st-skill-subtitle"><span class="cores">JavaScript:</span> Enhancing interactivity and functionality of web pages.</div>
+              <div class="st-skill-subtitle pt-1"><span class="cores">UX/UI Design:</span> Focused on user experience and design aesthetics.</div>
+            </div><!-- .st-skill-heading -->
+              
+          </div>
+        </div>  
+
+        <!-- Progressbar -->
+
+        <div class="col-lg-6">
+          <div class="st-height-b0 st-height-lg-b30"></div>
+          <div class="st-progressbar-wrap">
+            <div class="st-single-progressbar">
+              <div class="st-progressbar-heading">
+                <h3 class="st-progressbar-title">HTML</h3>
+                <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">95%</div>
+              </div>
+              <div class="st-progressbar" data-progress="95">
+                <div class="st-progressbar-in wow fadeInLeft"></div>
+              </div>
+            </div><!-- .st-single-progressbar -->
+            <div class="st-height-b30 st-height-lg-b20"></div>
+            <div class="st-single-progressbar">
+              <div class="st-progressbar-heading">
+                <h3 class="st-progressbar-title">CSS</h3>
+                <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">85%</div>
+              </div>
+              <div class="st-progressbar" data-progress="75">
+                <div class="st-progressbar-in wow fadeInLeft"></div>
+              </div>
+            </div><!-- .st-single-progressbar -->
+            <div class="st-height-b30 st-height-lg-b20"></div>
+            <div class="st-single-progressbar">
+              <div class="st-progressbar-heading">
+                <h3 class="st-progressbar-title">Bootstrap</h3>
+                <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">85%</div>
+              </div>
+              <div class="st-progressbar" data-progress="90">
+                <div class="st-progressbar-in wow fadeInLeft"></div>
+              </div>
+            </div><!-- .st-single-progressbar -->
+            <div class="st-height-b30 st-height-lg-b20"></div>
+            <div class="st-single-progressbar">
+              <div class="st-progressbar-heading">
+                <h3 class="st-progressbar-title">UX Design</h3>
+                <div class="st-progressbar-percentage wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">65%</div>
+              </div>
+              <div class="st-progressbar" data-progress="85">
+                <div class="st-progressbar-in wow fadeInLeft"></div>
+              </div>
+            </div><!-- .st-single-progressbar -->
+            <div class="st-height-b30 st-height-lg-b20"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Skill Seciton -->
+
+  <!-- Start Resume Seciton -->
+  <section id="resume" class="st-dark-bg">
+    <div class="st-height-b100 st-height-lg-b80"></div>
+    <div class="container">
+      <div class="st-section-heading st-style1">
+        <h4 class="st-section-heading-title">RESUME</h4>
+        <h2 class="st-section-heading-subtitle">RESUME</h2>
+      </div>
+      <div class="st-height-b25 st-height-lg-b25"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <!-- Experience -->
+        <div class="col-lg-6">
+          <div class="st-resume-wrap">
+            <div class="st-resume-heading">
+              <img src="resume-icon1.png" alt="resume-icon">
+              <h2 class="st-resume-heading-title">Experience</h2>
+            </div>
+
+            <div class="st-height-b50 st-height-lg-b30"></div>
+
+            <div class="st-resume-timeline-wrap">
+              <div class="st-resume-timeline">
+                <h3 class="st-resume-timeline-title">Front End / UI Developer</h3>
+                <div class="st-resume-timeline-duration">August 2024 - Present</div>
+                <h4 class="st-resume-timeline-subtitle"> Jay Digital Pay Pvt Ltd</h4>
+                <div class="st-resume-timeline-text">
+                  <p>Developed responsive and user-friendly web interfaces using HTML, CSS,and JavaScript to enhance digital payment solutions.
+                    Collaborated with UX/UI designers and backend teams to implement interactive features and ensure seamless user experience.
+                    Integrated RESTful APIs and optimized frontend performance, improving load times and responsiveness across devices.
+                    Ensured cross-browser compatibility and followed best practices for accessibility and responsive design.</p>
+                </div>
+              </div> <!-- st-resume-timeline -->
+              <div class="st-height-b50 st-height-lg-b30"></div>
+              <div class="st-resume-timeline">
+                <h3 class="st-resume-timeline-title">Front End / UI Developer</h3>
+                <div class="st-resume-timeline-duration">Oct 2021 - July 2024</div>
+                <h4 class="st-resume-timeline-subtitle"> Gocashless India Pvt Ltd</h4>
+                <div class="st-resume-timeline-text">
+                  <p>Develop overall concepts for improving the user
+                    experience within a business webpages or products,
+                    ensuring all interactions are intuitive and convenient for
+                    customers.</p>
+                </div>
+              </div> <!-- st-resume-timeline -->
+              <div class="st-height-b50 st-height-lg-b30"></div>
+              <div class="st-resume-timeline">
+                <h3 class="st-resume-timeline-title">Front End / UI Developer</h3>
+                <div class="st-resume-timeline-duration">Augst 2018 - Oct 2021</div>
+                <h4 class="st-resume-timeline-subtitle">Morgat Softwares Pvt Ltd</h4>
+                <div class="st-resume-timeline-text">
+                  <p> Develop user interfaces for complex websites and
+                    applications. Understand UI guidelines for relevant operating systems
+                    and appropriately adjust interfaces.Convert mockups into cross-browser
+                    HTML/CSS/JavaScript templates</p>
+                </div>
+              </div> <!-- st-resume-timeline -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="col-lg-6">
+
+          <div class="st-height-b0 st-height-lg-b50"></div>
+          <div class="st-resume-wrap">
+            <div class="st-resume-heading">
+              <img src="resume-icon2.png" alt="resume-icon">
+              <h2 class="st-resume-heading-title">Education</h2>
+            </div>
+            <div class="st-height-b50 st-height-lg-b30"></div>
+
+            <div class="st-resume-timeline-wrap">
+              <div class="st-resume-timeline">
+                <h3 class="st-resume-timeline-title"> Bachelor of Engineering (IT)</h3>
+                <div class="st-resume-timeline-duration">2010 - 2015</div>
+                <h4 class="st-resume-timeline-subtitle">North Maharashtra University,Jalgaon</h4>
+               <div class="st-resume-timeline-text">
+                  <p>Completed my Bachelor in G H Raisoni Institute of Engineering and
+                    Management,Jalgaon with 59.73%</p>
+                </div>
+              </div> <!-- st-resume-timeline -->
+              <div class="st-height-b50 st-height-lg-b30"></div>
+              <div class="st-resume-timeline">
+                <h3 class="st-resume-timeline-title">HSC (Science)</h3>
+                <div class="st-resume-timeline-duration">2010</div>
+                <h4 class="st-resume-timeline-subtitle">Maharashtra State board</h4>
+                <div class="st-resume-timeline-text">
+                  <p>Completed my 12th Science in Vasantrao Naik Arts, Science and Commerce College, Shahada with 73.73%</p>
+                </div>
+              </div> <!-- st-resume-timeline -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="st-height-b100 st-height-lg-b80"></div>
+  </section>
+  <!-- End Resume Seciton -->
+
+  <!-- Start Portfolio Seciton -->
+  <section id="portfolio">
+    <div class="st-height-b100 st-height-lg-b80"></div>
+    <div class="container">
+      <div class="st-section-heading st-style1">
+        <h4 class="st-section-heading-title">PORTFOLIOS</h4>
+        <h2 class="st-section-heading-subtitle">PORTFOLIOS</h2>
+      </div>
+      <div class="st-height-b25 st-height-lg-b25"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="st-portfolio-single st-style1 st-lightgallery">
+            <div class="st-portfolio-item">
+              <a href="shreyasgroup2.PNG" class="st-portfolio st-zoom st-lightbox-item">
+                <div class="st-portfolio-img st-zoom-in">
+                  <img src="shreyasgroup.png" alt="portfolio">
+                </div>
+                <div class="st-portfolio-item-hover">
+                  <i class="fas fa-plus-circle"></i>
+                  <h5>Shreyas Group</h5>
+                  <p>Web Design</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="st-portfolio-single st-style1 st-lightgallery">
+            <div class="st-portfolio-item">
+              <a href="Morgatsoftwares.PNG" class="st-portfolio st-zoom st-lightbox-item">
+                <div class="st-portfolio-img st-zoom-in">
+                  <img src="Morgatsoftwares1.png" alt="portfolio">
+                </div>
+                <div class="st-portfolio-item-hover">
+                  <i class="fas fa-plus-circle"></i>
+                  <h5>Morgat Softwares</h5>
+                  <p>Web Design</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="st-portfolio-single st-style1 st-lightgallery">
+            <div class="st-portfolio-item">
+              <a href="pz.PNG" class="st-portfolio st-zoom st-lightbox-item">
+                <div class="st-portfolio-img st-zoom-in">
+                  <img src="pz1.png" alt="portfolio">
+                </div>
+                <div class="st-portfolio-item-hover">
+                  <i class="fas fa-plus-circle"></i>
+                  <h5>Princezamira</h5>
+                  <p>Web Design</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="st-portfolio-single st-style1 st-lightgallery">
+            <div class="st-portfolio-item">
+              <a href="PML1.png" class="st-portfolio st-zoom st-lightbox-item">
+                <div class="st-portfolio-img st-zoom-in">
+                  <img src="PML.png" alt="portfolio">
+                </div>
+                <div class="st-portfolio-item-hover">
+                  <i class="fas fa-plus-circle"></i>
+                  <h5>Prodigyplm Pvt Ltd</h5>
+                  <p>Web Design</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="st-portfolio-single st-style1 st-lightgallery">
+            <div class="st-portfolio-item">
+              <a href="Tatkalwebsite.PNG" class="st-portfolio st-zoom st-lightbox-item">
+                <div class="st-portfolio-img st-zoom-in">
+                  <img src="Tatkalwebsite1.png" alt="portfolio">
+                </div>
+                <div class="st-portfolio-item-hover">
+                  <i class="fas fa-plus-circle"></i>
+                  <h5>Tatkal Banking</h5>
+                  <p>Web Design</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="st-portfolio-single st-style1 st-lightgallery">
+            <div class="st-portfolio-item">
+              <a href="fotrunck.png" class="st-portfolio st-zoom st-lightbox-item">
+                <div class="st-portfolio-img st-zoom-in">
+                  <img src="Fotrunck1.png" alt="portfolio">
+                </div>
+                <div class="st-portfolio-item-hover">
+                  <i class="fas fa-plus-circle"></i>
+                  <h5>Fotruck</h5>
+                  <p>Web Design</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 text-center" hidden>
+          <div class="st-portfolio-btn">
+            <a href="#" class="st-btn st-style1 st-color1">Load More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="st-height-b100 st-height-lg-b80"></div>
+  </section>
+  <!-- End Portfolio Seciton -->
+
+  <!-- Start Review Seciton -->
+  <section class="st-dark-bg">
+    <div class="st-height-b100 st-height-lg-b80"></div>
+    <div class="container">
+      <div class="st-section-heading st-style1">
+        <h4 class="st-section-heading-title">CLIENTS</h4>
+        <h2 class="st-section-heading-subtitle">CLIENTS</h2>
+      </div>
+      <div class="st-height-b25 st-height-lg-b25"></div>
+    </div>
+
+    <!-- Reviews Container -->
+
+    <div class="container">
+      <div class="st-slider st-style1 st-reviews-wrap">
+        <div class="slick-container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
+          data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="3"
+          data-lg-slides="3" data-add-slides="3">
+          <div class="slick-wrapper">
+
+            <div class="slick-slide-in">
+              <div class="st-testimonial st-style1 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                <div class="st-testimonial-text">
+                  <p>
+                    <a href="https://www.shreyasgroup.net/" target="_blank" style="text-align: -webkit-center; text-align: -moz-center;">
+                    <img src="shreyas-groupclient.webp">
+                    shreyas-group
+                  </a>
+                  </p>
+                </div>
+              </div>
+            </div><!-- .slick-slide-in -->
+
+            <div class="slick-slide-in">
+              <div class="st-testimonial st-style1 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                <div class="st-testimonial-text">
+                  <p>
+                    <a href="https://morgat.in/" target="_blank" style="text-align: -webkit-center;text-align: -moz-center;">
+                    <img src="logo222client.png" style="width: 63%;">
+                    Morgat Softwares
+                  </a>
+                  </p>
+                </div>
+               </div>
+            </div><!-- .slick-slide-in -->
+
+            <div class="slick-slide-in">
+              <div class="st-testimonial st-style1 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                <div class="st-testimonial-text">
+                  <p>
+                    <a href="https://princezamira.com/" target="_blank" style="text-align: -webkit-center;text-align: -moz-center;">
+                    <img src="princezamiraclient.png">
+                   Princezamira
+                  </a>
+                  </p>
+                </div>
+               </div>
+            </div><!-- .slick-slide-in -->
+
+            <div class="slick-slide-in">
+              <div class="st-testimonial st-style1 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                <div class="st-testimonial-text">
+                  <p>
+                    <a href="https://bhushannizare.github.io/Tatkal-Banking/" target="_blank" style="text-align: -webkit-center;text-align: -moz-center;">
+                    <img src="tatkal_logoclient.png">
+                   Tatkal Banking
+                  </a>
+                  </p>
+                </div>
+              </div>
+            </div><!-- .slick-slide-in -->
+
+            <div class="slick-slide-in">
+              <div class="st-testimonial st-style1 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                <div class="st-testimonial-text">
+                  <p>
+                    <a href="https://bhushannizare.github.io/Fotruck_web/" target="_blank" style="text-align: -webkit-center;text-align: -moz-center;">
+                    <img src="Fotruck-Logo12.png">
+                   Fotruck
+                  </a>
+                  </p>
+                </div>
+               </div>
+            </div><!-- .slick-slide-in -->
+
+            <div class="slick-slide-in">
+              <div class="st-testimonial st-style1 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                <div class="st-testimonial-text">
+                  <p>
+                    <a href="https://bhushannizare.github.io/PLM/" target="_blank" style="text-align: -webkit-center;text-align: -moz-center;">
+                    <img src="pml_logo1.png">
+                   Prodigyplm Pvt Ltd
+                  </a>
+                  </p>
+                </div>
+              </div>
+            </div><!-- .slick-slide-in -->
+          </div>
+        </div><!-- .slick-container -->
+        <div class="pagination st-style1 st-flex st-hidden"></div>
+        <!-- If dont need Pagination then add class .st-hidden -->
+        <div class="swipe-arrow st-style1 st-hidden">
+          <!-- If dont need navigation then add class .st-hidden -->
+          <div class="slick-arrow-left"><i class="fa fa-chevron-left"></i></div>
+          <div class="slick-arrow-right"><i class="fa fa-chevron-right"></i></div>
+        </div>
+      </div><!-- .st-slider -->
+    </div>
+    <div class="st-height-b100 st-height-lg-b80"></div>
+  </section>
+  <!-- End Review Seciton -->
+
+  
+
+  <!-- Start Contact Seciton -->
+  <section id="contact" class="st-dark-bg">
+    <div class="st-height-b100 st-height-lg-b80"></div>
+    <div class="container">
+      <div class="st-section-heading st-style1">
+        <h4 class="st-section-heading-title">CONTACT ME</h4>
+        <h2 class="st-section-heading-subtitle">CONTACT ME</h2>
+      </div>
+      <div class="st-height-b25 st-height-lg-b25"></div>
+    </div>
+
+    <!-- Contact Container -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="st-contact-title">Just say Hello</h3>
+          <div id="st-alert"></div>
+          <form action="#" method="POST" class="st-contact-form" id="contact-form">
+            <div class="st-form-field">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="st-form-field">
+              <input type="text" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="st-form-field">
+              <input type="text" id="subject" name="subject" placeholder="Your Subject" required>
+            </div>
+            <div class="st-form-field">
+              <textarea cols="30" rows="10" id="msg" name="msg" placeholder="Your Message" required></textarea>
+            </div>
+            <button class="st-btn st-style1 st-color1" type="submit" id="submit" name="submit">Send message</button>
+          </form>
+        </div>
+        <div class="st-height-b0 st-height-lg-b30"></div>
+
+        <div class="col-lg-6">
+          <div class="st-height-b0 st-height-lg-b40"></div>
+          <h3 class="st-contact-title">Contact Info</h3>
+          <div class="st-contact-text">
+            I’m Bhushan Nizare. I specialize in front-end development with a passion for creating responsive and user-friendly websites. With 5 years of experience in the industry.
+          </div>
+          <div class="st-contact-info-wrap">
+            <div class="st-single-contact-info">
+              <i class="fas fa-envelope"></i>
+              <div class="st-single-info-details">
+                <h4>Email</h4>
+                <a href="#">bhushannizare739@gmail.com</a>
+              </div>
+            </div>
+            <div class="st-single-contact-info">
+              <i class="fas fa-phone-alt"></i>
+              <div class="st-single-info-details">
+                <h4>Phone</h4>
+                <span>+91 735-073-0622</span>
+              </div>
+            </div>
+            <div class="st-single-contact-info">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="st-single-info-details">
+                <h4>Address</h4>
+                <span>05 Laxmiputtra Nivas, <br>Parkhe Vasti Hinjewadi Pune Maharashtra</span>
+              </div>
+            </div>  
+            <div class="st-social-info">
+              <div class="st-social-text">Visite my social profile and get connected</div>
+              <div class="st-social-link">
+                <a href="https://www.facebook.com/bhushan.nizare?mibextid=ZbWKwL" target="_blank" class="st-social-btn active">
+                  <span class="st-social-icon"><i class="fab fa-facebook"></i></span>
+                  <span class="st-icon-name">Facebook</span>
+                </a>
+                <a href="https://www.linkedin.com/in/bhushan-nizare-4685138b" target="_blank" class="st-social-btn">
+                  <span class="st-social-icon"><i class="fab fa-linkedin"></i></span>
+                  <span class="st-icon-name">LinkedIn</span>
+                </a>
+                <a href="#" class="st-social-btn">
+                  <span class="st-social-icon"><i class="fab fa-twitter"></i></span>
+                  <span class="st-icon-name">Twitter</span>
+                </a>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="st-height-b100 st-height-lg-b80"></div>
+  </section>
+  <!-- End Contact Seciton -->
+
+  <!-- Start Footer Seciton -->
+  <footer>
+    <div class="container">
+      <div class="st-copyright-wrap text-center">
+        <div class="st-copyright-text">© 2025. Designed by Bhushan. All right reserved.</div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer Seciton -->
+
+  <!-- Scripts -->
+  <script src="jquery-1.12.4.min.js"></script>
+  <script src="jquery.slick.min.js"></script>
+  <script src="lightgallery.min.js"></script>
+  <script src="wow.min.js"></script>
+  <script src="ripples.min.js"></script>
+  <script src="particles.min.js"></script>
+  <script src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lightgallery-all.js" integrity="sha512-ib6swbZG+2gcZ5gtx5NIi4enGrvMry+1bAJRXG2KlWr+3rPkB8sPUmzBuKZBPegm8pD1IiRsXbQ1XWd+5HSLbA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lightgallery-all.min.js" integrity="sha512-1O7rMAz8mHEOXRPzDKm/athhHp/DotlK5EzZ1qlg2bfe5bBTS0rgWM2bvV3tdWodTdX9Hctvggq95wzFogi9wQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lightgallery.js" integrity="sha512-FfFLwZWgfdlDc+GwNe7x7FlM8HvrcTSqCDsZCv5aigQRDRpzcFTo1x1Keku2Xfvcu7/w5S1k164mNPfxztKxXg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lightgallery.min.js" integrity="sha512-ilUJ+8L1cWZXQspxnZQTRWjTXXHyTWRamxRr7/ElsZ3xvK/hptE1oxTOBDVzwf4INPj91UzEykeogViBL4F4LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
